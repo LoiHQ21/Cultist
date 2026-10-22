@@ -1,0 +1,5 @@
+Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore.  One separate usable game asset, not a contact sheet. Wide landscape scene of SAME village and shrine at cold dawn. Reference Listening god has stood and grown taller than village houses; same rounded stone face forehead sun open dark mouth. Looks down toward implied keeper. Small distant army banners far-right road, villagers as tiny silhouettes. Village architecture and forest match reference background. Calm bottom band for real dialogue, no interface or text.
+
+References:
+assets-source/images/bg_shrine.png
+assets-source/images/statue_listening.png

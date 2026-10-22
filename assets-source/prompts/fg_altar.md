@@ -1,0 +1,4 @@
+Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore.  Actual transparent alpha outside the silhouette. NO backdrop, vignette, glow cloud or halo around isolated objects. Exactly one usable asset, no grids. One wide low stone offering altar and foreground ledge, frontal view matching reference scene. Worn warm-grey stone, subtle carved grooves, rust cloth draped at one side, empty tabletop for separate offerings. NO objects, candles, background. Wide 3:1 silhouette with clear margin.
+
+References:
+assets-source/images/bg_shrine.png

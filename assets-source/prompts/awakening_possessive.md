@@ -1,0 +1,5 @@
+Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore.  One separate usable game asset, not a contact sheet. Wide landscape scene same village shrine at cold dawn. Reference Possessive god gigantic, enormous curled stone hands enclose houses leaving a narrow gate. Distant army banners OUTSIDE. Protective anxious unsettling. Ochre light between fingers and plum-grey dawn. Same sun forehead rounded face mouth. Quiet bottom band. No text UI or combat.
+
+References:
+assets-source/images/bg_shrine.png
+assets-source/images/statue_possessive.png

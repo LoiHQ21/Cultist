@@ -1,0 +1,4 @@
+Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore. Wide landscape 1536x1024 composition. Empty woodland shrine courtyard at dusk, steep-roofed distant village upper right, layered dark trees left, winding path, low mossy steps and hanging charms. Empty low plinth center-right for separately composited statue. Quiet central area, left foreground open for visitor, bottom quarter calm. NO statue, people, altar table or interface.
+
+References:
+assets-source/concept-reference.png

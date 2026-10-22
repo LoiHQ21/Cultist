@@ -1,0 +1,1366 @@
+{
+  "version": "1.0.0",
+  "assets": [
+    {
+      "id": "bg_shrine",
+      "kind": "image",
+      "path": "/assets/backgrounds/bg-shrine.webp",
+      "sourcePath": "assets-source/images/bg_shrine.png",
+      "promptPath": "assets-source/prompts/bg_shrine.md",
+      "references": [
+        "assets-source/concept-reference.png"
+      ],
+      "width": 1536,
+      "height": 1024,
+      "originalDimensions": [
+        1536,
+        1024
+      ],
+      "alpha": false,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "anchors": {},
+      "generationMethod": "image-generation-tool",
+      "status": "accepted",
+      "bytes": 527968
+    },
+    {
+      "id": "fg_altar",
+      "kind": "image",
+      "path": "/assets/props/fg-altar.webp",
+      "sourcePath": "assets-source/images/fg_altar.png",
+      "promptPath": "assets-source/prompts/fg_altar.md",
+      "references": [
+        "assets-source/images/bg_shrine.png"
+      ],
+      "width": 640,
+      "height": 213,
+      "originalDimensions": [
+        2172,
+        724
+      ],
+      "alpha": true,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "anchors": {},
+      "generationMethod": "image-generation-tool",
+      "status": "accepted",
+      "bytes": 45812
+    },
+    {
+      "id": "statue_listening",
+      "kind": "image",
+      "path": "/assets/statues/statue-listening.webp",
+      "sourcePath": "assets-source/images/statue_listening.png",
+      "promptPath": "assets-source/prompts/statue_listening.md",
+      "references": [
+        "assets-source/concept-reference.png"
+      ],
+      "width": 667,
+      "height": 800,
+      "originalDimensions": [
+        1145,
+        1374
+      ],
+      "alpha": true,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "anchors": {
+        "mouth": {
+          "x": 0.59,
+          "y": 0.47
+        }
+      },
+      "generationMethod": "image-generation-tool",
+      "status": "accepted",
+      "bytes": 210918
+    },
+    {
+      "id": "statue_merciful",
+      "kind": "image",
+      "path": "/assets/statues/statue-merciful.webp",
+      "sourcePath": "assets-source/images/statue_merciful.png",
+      "promptPath": "assets-source/prompts/statue_merciful.md",
+      "references": [
+        "assets-source/images/statue_listening.png"
+      ],
+      "width": 667,
+      "height": 800,
+      "originalDimensions": [
+        1145,
+        1374
+      ],
+      "alpha": true,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "anchors": {
+        "mouth": {
+          "x": 0.59,
+          "y": 0.47
+        }
+      },
+      "generationMethod": "image-generation-tool",
+      "status": "accepted",
+      "bytes": 201846
+    },
+    {
+      "id": "statue_possessive",
+      "kind": "image",
+      "path": "/assets/statues/statue-possessive.webp",
+      "sourcePath": "assets-source/images/statue_possessive.png",
+      "promptPath": "assets-source/prompts/statue_possessive.md",
+      "references": [
+        "assets-source/images/statue_listening.png"
+      ],
+      "width": 667,
+      "height": 800,
+      "originalDimensions": [
+        1145,
+        1374
+      ],
+      "alpha": true,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "anchors": {
+        "mouth": {
+          "x": 0.58,
+          "y": 0.46
+        }
+      },
+      "generationMethod": "image-generation-tool",
+      "status": "accepted",
+      "bytes": 222044
+    },
+    {
+      "id": "mara_worried",
+      "kind": "image",
+      "path": "/assets/characters/mara-worried.webp",
+      "sourcePath": "assets-source/images/mara_worried.png",
+      "promptPath": "assets-source/prompts/mara_worried.md",
+      "references": [
+        "assets-source/concept-reference.png"
+      ],
+      "width": 427,
+      "height": 640,
+      "originalDimensions": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "anchors": {},
+      "generationMethod": "image-generation-tool",
+      "status": "accepted",
+      "bytes": 61214
+    },
+    {
+      "id": "mara_relieved",
+      "kind": "image",
+      "path": "/assets/characters/mara-relieved.webp",
+      "sourcePath": "assets-source/images/mara_relieved.png",
+      "promptPath": "assets-source/prompts/mara_relieved.md",
+      "references": [
+        "assets-source/images/mara_worried.png"
+      ],
+      "width": 427,
+      "height": 640,
+      "originalDimensions": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "anchors": {},
+      "generationMethod": "image-generation-tool",
+      "status": "accepted",
+      "bytes": 59332
+    },
+    {
+      "id": "ivo_worried",
+      "kind": "image",
+      "path": "/assets/characters/ivo-worried.webp",
+      "sourcePath": "assets-source/images/ivo_worried.png",
+      "promptPath": "assets-source/prompts/ivo_worried.md",
+      "references": [
+        "assets-source/images/mara_worried.png"
+      ],
+      "width": 427,
+      "height": 640,
+      "originalDimensions": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "anchors": {},
+      "generationMethod": "image-generation-tool",
+      "status": "accepted",
+      "bytes": 60162
+    },
+    {
+      "id": "ivo_relieved",
+      "kind": "image",
+      "path": "/assets/characters/ivo-relieved.webp",
+      "sourcePath": "assets-source/images/ivo_relieved.png",
+      "promptPath": "assets-source/prompts/ivo_relieved.md",
+      "references": [
+        "assets-source/images/ivo_worried.png"
+      ],
+      "width": 427,
+      "height": 640,
+      "originalDimensions": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "anchors": {},
+      "generationMethod": "image-generation-tool",
+      "status": "accepted",
+      "bytes": 57772
+    },
+    {
+      "id": "ada_worried",
+      "kind": "image",
+      "path": "/assets/characters/ada-worried.webp",
+      "sourcePath": "assets-source/images/ada_worried.png",
+      "promptPath": "assets-source/prompts/ada_worried.md",
+      "references": [
+        "assets-source/images/mara_worried.png"
+      ],
+      "width": 427,
+      "height": 640,
+      "originalDimensions": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "anchors": {},
+      "generationMethod": "image-generation-tool",
+      "status": "accepted",
+      "bytes": 87324
+    },
+    {
+      "id": "ada_relieved",
+      "kind": "image",
+      "path": "/assets/characters/ada-relieved.webp",
+      "sourcePath": "assets-source/images/ada_relieved.png",
+      "promptPath": "assets-source/prompts/ada_relieved.md",
+      "references": [
+        "assets-source/images/ada_worried.png"
+      ],
+      "width": 427,
+      "height": 640,
+      "originalDimensions": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "anchors": {},
+      "generationMethod": "image-generation-tool",
+      "status": "accepted",
+      "bytes": 81724
+    },
+    {
+      "id": "sela_worried",
+      "kind": "image",
+      "path": "/assets/characters/sela-worried.webp",
+      "sourcePath": "assets-source/images/sela_worried.png",
+      "promptPath": "assets-source/prompts/sela_worried.md",
+      "references": [
+        "assets-source/images/mara_worried.png"
+      ],
+      "width": 427,
+      "height": 640,
+      "originalDimensions": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "anchors": {},
+      "generationMethod": "image-generation-tool",
+      "status": "accepted",
+      "bytes": 67786
+    },
+    {
+      "id": "sela_relieved",
+      "kind": "image",
+      "path": "/assets/characters/sela-relieved.webp",
+      "sourcePath": "assets-source/images/sela_relieved.png",
+      "promptPath": "assets-source/prompts/sela_relieved.md",
+      "references": [
+        "assets-source/images/sela_worried.png"
+      ],
+      "width": 427,
+      "height": 640,
+      "originalDimensions": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "anchors": {},
+      "generationMethod": "image-generation-tool",
+      "status": "accepted",
+      "bytes": 62680
+    },
+    {
+      "id": "bram_worried",
+      "kind": "image",
+      "path": "/assets/characters/bram-worried.webp",
+      "sourcePath": "assets-source/images/bram_worried.png",
+      "promptPath": "assets-source/prompts/bram_worried.md",
+      "references": [
+        "assets-source/images/mara_worried.png"
+      ],
+      "width": 427,
+      "height": 640,
+      "originalDimensions": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "anchors": {},
+      "generationMethod": "image-generation-tool",
+      "status": "accepted",
+      "bytes": 70176
+    },
+    {
+      "id": "bram_relieved",
+      "kind": "image",
+      "path": "/assets/characters/bram-relieved.webp",
+      "sourcePath": "assets-source/images/bram_relieved.png",
+      "promptPath": "assets-source/prompts/bram_relieved.md",
+      "references": [
+        "assets-source/images/bram_worried.png"
+      ],
+      "width": 427,
+      "height": 640,
+      "originalDimensions": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "anchors": {},
+      "generationMethod": "image-generation-tool",
+      "status": "accepted",
+      "bytes": 67838
+    },
+    {
+      "id": "nell_worried",
+      "kind": "image",
+      "path": "/assets/characters/nell-worried.webp",
+      "sourcePath": "assets-source/images/nell_worried.png",
+      "promptPath": "assets-source/prompts/nell_worried.md",
+      "references": [
+        "assets-source/images/mara_worried.png"
+      ],
+      "width": 427,
+      "height": 640,
+      "originalDimensions": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "anchors": {},
+      "generationMethod": "image-generation-tool",
+      "status": "accepted",
+      "bytes": 58298
+    },
+    {
+      "id": "nell_relieved",
+      "kind": "image",
+      "path": "/assets/characters/nell-relieved.webp",
+      "sourcePath": "assets-source/images/nell_relieved.png",
+      "promptPath": "assets-source/prompts/nell_relieved.md",
+      "references": [
+        "assets-source/images/nell_worried.png"
+      ],
+      "width": 427,
+      "height": 640,
+      "originalDimensions": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "anchors": {},
+      "generationMethod": "image-generation-tool",
+      "status": "accepted",
+      "bytes": 59906
+    },
+    {
+      "id": "chain",
+      "kind": "image",
+      "path": "/assets/offerings/chain.webp",
+      "sourcePath": "assets-source/images/chain.png",
+      "promptPath": "assets-source/prompts/chain.md",
+      "references": [
+        "assets-source/concept-reference.png"
+      ],
+      "width": 320,
+      "height": 320,
+      "originalDimensions": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "anchors": {},
+      "generationMethod": "image-generation-tool",
+      "status": "accepted",
+      "bytes": 23154
+    },
+    {
+      "id": "seed",
+      "kind": "image",
+      "path": "/assets/offerings/seed.webp",
+      "sourcePath": "assets-source/images/seed.png",
+      "promptPath": "assets-source/prompts/seed.md",
+      "references": [
+        "assets-source/images/chain.png"
+      ],
+      "width": 320,
+      "height": 320,
+      "originalDimensions": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "anchors": {},
+      "generationMethod": "image-generation-tool",
+      "status": "accepted",
+      "bytes": 26572
+    },
+    {
+      "id": "knife",
+      "kind": "image",
+      "path": "/assets/offerings/knife.webp",
+      "sourcePath": "assets-source/images/knife.png",
+      "promptPath": "assets-source/prompts/knife.md",
+      "references": [
+        "assets-source/images/chain.png"
+      ],
+      "width": 320,
+      "height": 320,
+      "originalDimensions": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "anchors": {},
+      "generationMethod": "image-generation-tool",
+      "status": "accepted",
+      "bytes": 21218
+    },
+    {
+      "id": "ring",
+      "kind": "image",
+      "path": "/assets/offerings/ring.webp",
+      "sourcePath": "assets-source/images/ring.png",
+      "promptPath": "assets-source/prompts/ring.md",
+      "references": [
+        "assets-source/images/chain.png"
+      ],
+      "width": 320,
+      "height": 320,
+      "originalDimensions": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "anchors": {},
+      "generationMethod": "image-generation-tool",
+      "status": "accepted",
+      "bytes": 22932
+    },
+    {
+      "id": "bell",
+      "kind": "image",
+      "path": "/assets/offerings/bell.webp",
+      "sourcePath": "assets-source/images/bell.png",
+      "promptPath": "assets-source/prompts/bell.md",
+      "references": [
+        "assets-source/images/chain.png"
+      ],
+      "width": 320,
+      "height": 320,
+      "originalDimensions": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "anchors": {},
+      "generationMethod": "image-generation-tool",
+      "status": "accepted",
+      "bytes": 20642
+    },
+    {
+      "id": "mirror",
+      "kind": "image",
+      "path": "/assets/offerings/mirror.webp",
+      "sourcePath": "assets-source/images/mirror.png",
+      "promptPath": "assets-source/prompts/mirror.md",
+      "references": [
+        "assets-source/images/chain.png"
+      ],
+      "width": 320,
+      "height": 320,
+      "originalDimensions": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "anchors": {},
+      "generationMethod": "image-generation-tool",
+      "status": "accepted",
+      "bytes": 23828
+    },
+    {
+      "id": "biting_grain",
+      "kind": "image",
+      "path": "/assets/offerings/biting-grain.webp",
+      "sourcePath": "assets-source/images/biting_grain.png",
+      "promptPath": "assets-source/prompts/biting_grain.md",
+      "references": [
+        "assets-source/images/chain.png"
+      ],
+      "width": 320,
+      "height": 320,
+      "originalDimensions": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "anchors": {},
+      "generationMethod": "image-generation-tool",
+      "status": "accepted",
+      "bytes": 27380
+    },
+    {
+      "id": "guardian_tear",
+      "kind": "image",
+      "path": "/assets/offerings/guardian-tear.webp",
+      "sourcePath": "assets-source/images/guardian_tear.png",
+      "promptPath": "assets-source/prompts/guardian_tear.md",
+      "references": [
+        "assets-source/images/chain.png"
+      ],
+      "width": 320,
+      "height": 320,
+      "originalDimensions": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "anchors": {},
+      "generationMethod": "image-generation-tool",
+      "status": "accepted",
+      "bytes": 24910
+    },
+    {
+      "id": "loose_shadow",
+      "kind": "image",
+      "path": "/assets/offerings/loose-shadow.webp",
+      "sourcePath": "assets-source/images/loose_shadow.png",
+      "promptPath": "assets-source/prompts/loose_shadow.md",
+      "references": [
+        "assets-source/images/chain.png"
+      ],
+      "width": 320,
+      "height": 320,
+      "originalDimensions": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "anchors": {},
+      "generationMethod": "image-generation-tool",
+      "status": "accepted",
+      "bytes": 21082
+    },
+    {
+      "id": "forgotten_name",
+      "kind": "image",
+      "path": "/assets/offerings/forgotten-name.webp",
+      "sourcePath": "assets-source/images/forgotten_name.png",
+      "promptPath": "assets-source/prompts/forgotten_name.md",
+      "references": [
+        "assets-source/images/chain.png"
+      ],
+      "width": 320,
+      "height": 320,
+      "originalDimensions": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "anchors": {},
+      "generationMethod": "image-generation-tool",
+      "status": "accepted",
+      "bytes": 28616
+    },
+    {
+      "id": "trace_guardian",
+      "kind": "image",
+      "path": "/assets/props/trace-guardian.webp",
+      "sourcePath": "assets-source/images/trace_guardian.png",
+      "promptPath": "assets-source/prompts/trace_guardian.md",
+      "references": [
+        "assets-source/images/statue_listening.png"
+      ],
+      "width": 320,
+      "height": 277,
+      "originalDimensions": [
+        1347,
+        1167
+      ],
+      "alpha": true,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "anchors": {},
+      "generationMethod": "image-generation-tool",
+      "status": "accepted",
+      "bytes": 39224
+    },
+    {
+      "id": "trace_grain",
+      "kind": "image",
+      "path": "/assets/props/trace-grain.webp",
+      "sourcePath": "assets-source/images/trace_grain.png",
+      "promptPath": "assets-source/prompts/trace_grain.md",
+      "references": [
+        "assets-source/images/chain.png",
+        "assets-source/images/bg_shrine.png"
+      ],
+      "width": 320,
+      "height": 320,
+      "originalDimensions": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "anchors": {},
+      "generationMethod": "image-generation-tool",
+      "status": "accepted",
+      "bytes": 49824
+    },
+    {
+      "id": "trace_shadow",
+      "kind": "image",
+      "path": "/assets/props/trace-shadow.webp",
+      "sourcePath": "assets-source/images/trace_shadow.png",
+      "promptPath": "assets-source/prompts/trace_shadow.md",
+      "references": [
+        "assets-source/images/chain.png",
+        "assets-source/images/bg_shrine.png"
+      ],
+      "width": 320,
+      "height": 320,
+      "originalDimensions": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "anchors": {},
+      "generationMethod": "image-generation-tool",
+      "status": "accepted",
+      "bytes": 38152
+    },
+    {
+      "id": "trace_names",
+      "kind": "image",
+      "path": "/assets/props/trace-names.webp",
+      "sourcePath": "assets-source/images/trace_names.png",
+      "promptPath": "assets-source/prompts/trace_names.md",
+      "references": [
+        "assets-source/images/chain.png",
+        "assets-source/images/bg_shrine.png"
+      ],
+      "width": 320,
+      "height": 320,
+      "originalDimensions": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "anchors": {},
+      "generationMethod": "image-generation-tool",
+      "status": "accepted",
+      "bytes": 45506
+    },
+    {
+      "id": "awakening_listening",
+      "kind": "image",
+      "path": "/assets/backgrounds/awakening-listening.webp",
+      "sourcePath": "assets-source/images/awakening_listening.png",
+      "promptPath": "assets-source/prompts/awakening_listening.md",
+      "references": [
+        "assets-source/images/bg_shrine.png",
+        "assets-source/images/statue_listening.png"
+      ],
+      "width": 1536,
+      "height": 1024,
+      "originalDimensions": [
+        1536,
+        1024
+      ],
+      "alpha": false,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "anchors": {},
+      "generationMethod": "image-generation-tool",
+      "status": "accepted",
+      "bytes": 530442
+    },
+    {
+      "id": "awakening_merciful",
+      "kind": "image",
+      "path": "/assets/backgrounds/awakening-merciful.webp",
+      "sourcePath": "assets-source/images/awakening_merciful.png",
+      "promptPath": "assets-source/prompts/awakening_merciful.md",
+      "references": [
+        "assets-source/images/bg_shrine.png",
+        "assets-source/images/statue_merciful.png"
+      ],
+      "width": 1536,
+      "height": 1024,
+      "originalDimensions": [
+        1536,
+        1024
+      ],
+      "alpha": false,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "anchors": {},
+      "generationMethod": "image-generation-tool",
+      "status": "accepted",
+      "bytes": 605810
+    },
+    {
+      "id": "awakening_possessive",
+      "kind": "image",
+      "path": "/assets/backgrounds/awakening-possessive.webp",
+      "sourcePath": "assets-source/images/awakening_possessive.png",
+      "promptPath": "assets-source/prompts/awakening_possessive.md",
+      "references": [
+        "assets-source/images/bg_shrine.png",
+        "assets-source/images/statue_possessive.png"
+      ],
+      "width": 1536,
+      "height": 1024,
+      "originalDimensions": [
+        1536,
+        1024
+      ],
+      "alpha": false,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "anchors": {},
+      "generationMethod": "image-generation-tool",
+      "status": "accepted",
+      "bytes": 568598
+    },
+    {
+      "id": "ending_quiet",
+      "kind": "image",
+      "path": "/assets/endings/ending-quiet.webp",
+      "sourcePath": "assets-source/images/ending_quiet.png",
+      "promptPath": "assets-source/prompts/ending_quiet.md",
+      "references": [
+        "assets-source/images/bg_shrine.png",
+        "assets-source/images/statue_listening.png"
+      ],
+      "width": 1536,
+      "height": 1024,
+      "originalDimensions": [
+        1536,
+        1024
+      ],
+      "alpha": false,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "anchors": {},
+      "generationMethod": "image-generation-tool",
+      "status": "accepted",
+      "bytes": 491528
+    },
+    {
+      "id": "ending_guarded",
+      "kind": "image",
+      "path": "/assets/endings/ending-guarded.webp",
+      "sourcePath": "assets-source/images/ending_guarded.png",
+      "promptPath": "assets-source/prompts/ending_guarded.md",
+      "references": [
+        "assets-source/images/bg_shrine.png",
+        "assets-source/images/statue_possessive.png"
+      ],
+      "width": 1536,
+      "height": 1024,
+      "originalDimensions": [
+        1536,
+        1024
+      ],
+      "alpha": false,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "anchors": {},
+      "generationMethod": "image-generation-tool",
+      "status": "accepted",
+      "bytes": 592266
+    },
+    {
+      "id": "ending_desolate",
+      "kind": "image",
+      "path": "/assets/endings/ending-desolate.webp",
+      "sourcePath": "assets-source/images/ending_desolate.png",
+      "promptPath": "assets-source/prompts/ending_desolate.md",
+      "references": [
+        "assets-source/images/bg_shrine.png"
+      ],
+      "width": 1536,
+      "height": 1024,
+      "originalDimensions": [
+        1536,
+        1024
+      ],
+      "alpha": false,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "anchors": {},
+      "generationMethod": "image-generation-tool",
+      "status": "accepted",
+      "bytes": 481074
+    },
+    {
+      "id": "ui_parchment",
+      "kind": "image",
+      "path": "/assets/ui/ui-parchment.webp",
+      "sourcePath": "assets-source/images/ui_parchment.png",
+      "promptPath": "assets-source/prompts/ui_parchment.md",
+      "references": [
+        "assets-source/concept-reference.png"
+      ],
+      "width": 640,
+      "height": 427,
+      "originalDimensions": [
+        1536,
+        1024
+      ],
+      "alpha": false,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "anchors": {},
+      "generationMethod": "image-generation-tool",
+      "status": "accepted",
+      "bytes": 32500
+    },
+    {
+      "id": "ui_wood",
+      "kind": "image",
+      "path": "/assets/ui/ui-wood.webp",
+      "sourcePath": "assets-source/images/ui_wood.png",
+      "promptPath": "assets-source/prompts/ui_wood.md",
+      "references": [
+        "assets-source/rejected/ui_wood-checkerboard.png"
+      ],
+      "width": 640,
+      "height": 213,
+      "originalDimensions": [
+        2172,
+        724
+      ],
+      "alpha": false,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "anchors": {},
+      "generationMethod": "image-generation-tool",
+      "status": "accepted",
+      "bytes": 32378
+    },
+    {
+      "id": "ui_card",
+      "kind": "image",
+      "path": "/assets/ui/ui-card.webp",
+      "sourcePath": "assets-source/images/ui_card.png",
+      "promptPath": "assets-source/prompts/ui_card.md",
+      "references": [
+        "assets-source/images/ui_parchment.png"
+      ],
+      "width": 427,
+      "height": 640,
+      "originalDimensions": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "anchors": {},
+      "generationMethod": "image-generation-tool",
+      "status": "accepted",
+      "bytes": 63878
+    },
+    {
+      "id": "prop_bell",
+      "kind": "image",
+      "path": "/assets/props/prop-bell.webp",
+      "sourcePath": "assets-source/images/prop_bell.png",
+      "promptPath": "assets-source/prompts/prop_bell.md",
+      "references": [
+        "assets-source/images/chain.png",
+        "assets-source/images/bg_shrine.png"
+      ],
+      "width": 213,
+      "height": 320,
+      "originalDimensions": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "anchors": {},
+      "generationMethod": "image-generation-tool",
+      "status": "accepted",
+      "bytes": 20302
+    },
+    {
+      "id": "prop_candles",
+      "kind": "image",
+      "path": "/assets/props/prop-candles.webp",
+      "sourcePath": "assets-source/images/prop_candles.png",
+      "promptPath": "assets-source/prompts/prop_candles.md",
+      "references": [
+        "assets-source/images/bg_shrine.png"
+      ],
+      "width": 320,
+      "height": 213,
+      "originalDimensions": [
+        1536,
+        1024
+      ],
+      "alpha": true,
+      "pivot": {
+        "x": 0.5,
+        "y": 0.97
+      },
+      "anchors": {},
+      "generationMethod": "image-generation-tool",
+      "status": "accepted",
+      "bytes": 16280
+    },
+    {
+      "id": "shrine_loop",
+      "kind": "audio",
+      "path": "/assets/audio/shrine_loop.ogg",
+      "sourcePath": "assets-source/audio/shrine_loop.wav",
+      "generator": "tools/generate_audio.py",
+      "generationMethod": "deterministic-procedural-synthesis",
+      "seed": 7031,
+      "duration": 60.0,
+      "format": "ogg-vorbis",
+      "sampleRate": 22050,
+      "loop": true,
+      "peak": 0.0853,
+      "status": "accepted"
+    },
+    {
+      "id": "awakening_loop",
+      "kind": "audio",
+      "path": "/assets/audio/awakening_loop.ogg",
+      "sourcePath": "assets-source/audio/awakening_loop.wav",
+      "generator": "tools/generate_audio.py",
+      "generationMethod": "deterministic-procedural-synthesis",
+      "seed": 7031,
+      "duration": 60.0,
+      "format": "ogg-vorbis",
+      "sampleRate": 22050,
+      "loop": true,
+      "peak": 0.1103,
+      "status": "accepted"
+    },
+    {
+      "id": "ending_loop",
+      "kind": "audio",
+      "path": "/assets/audio/ending_loop.ogg",
+      "sourcePath": "assets-source/audio/ending_loop.wav",
+      "generator": "tools/generate_audio.py",
+      "generationMethod": "deterministic-procedural-synthesis",
+      "seed": 7031,
+      "duration": 60.0,
+      "format": "ogg-vorbis",
+      "sampleRate": 22050,
+      "loop": true,
+      "peak": 0.1122,
+      "status": "accepted"
+    },
+    {
+      "id": "ending_cold_loop",
+      "kind": "audio",
+      "path": "/assets/audio/ending_cold_loop.ogg",
+      "sourcePath": "assets-source/audio/ending_cold_loop.wav",
+      "generator": "tools/generate_audio.py",
+      "generationMethod": "deterministic-procedural-synthesis",
+      "seed": 7031,
+      "duration": 60.0,
+      "format": "ogg-vorbis",
+      "sampleRate": 22050,
+      "loop": true,
+      "peak": 0.1152,
+      "status": "accepted"
+    },
+    {
+      "id": "ui_pick",
+      "kind": "audio",
+      "path": "/assets/audio/ui_pick.ogg",
+      "sourcePath": "assets-source/audio/ui_pick.wav",
+      "generator": "tools/generate_audio.py",
+      "generationMethod": "deterministic-procedural-synthesis",
+      "seed": 7031,
+      "duration": 0.08,
+      "format": "ogg-vorbis",
+      "sampleRate": 22050,
+      "loop": false,
+      "peak": 0.0714,
+      "status": "accepted"
+    },
+    {
+      "id": "ui_place",
+      "kind": "audio",
+      "path": "/assets/audio/ui_place.ogg",
+      "sourcePath": "assets-source/audio/ui_place.wav",
+      "generator": "tools/generate_audio.py",
+      "generationMethod": "deterministic-procedural-synthesis",
+      "seed": 7031,
+      "duration": 0.12,
+      "format": "ogg-vorbis",
+      "sampleRate": 22050,
+      "loop": false,
+      "peak": 0.0779,
+      "status": "accepted"
+    },
+    {
+      "id": "page_turn",
+      "kind": "audio",
+      "path": "/assets/audio/page_turn.ogg",
+      "sourcePath": "assets-source/audio/page_turn.wav",
+      "generator": "tools/generate_audio.py",
+      "generationMethod": "deterministic-procedural-synthesis",
+      "seed": 7031,
+      "duration": 0.28,
+      "format": "ogg-vorbis",
+      "sampleRate": 22050,
+      "loop": false,
+      "peak": 0.1349,
+      "status": "accepted"
+    },
+    {
+      "id": "ritual_bell",
+      "kind": "audio",
+      "path": "/assets/audio/ritual_bell.ogg",
+      "sourcePath": "assets-source/audio/ritual_bell.wav",
+      "generator": "tools/generate_audio.py",
+      "generationMethod": "deterministic-procedural-synthesis",
+      "seed": 7031,
+      "duration": 1.6,
+      "format": "ogg-vorbis",
+      "sampleRate": 22050,
+      "loop": false,
+      "peak": 0.1746,
+      "status": "accepted"
+    },
+    {
+      "id": "stone_breath",
+      "kind": "audio",
+      "path": "/assets/audio/stone_breath.ogg",
+      "sourcePath": "assets-source/audio/stone_breath.wav",
+      "generator": "tools/generate_audio.py",
+      "generationMethod": "deterministic-procedural-synthesis",
+      "seed": 7031,
+      "duration": 0.8,
+      "format": "ogg-vorbis",
+      "sampleRate": 22050,
+      "loop": false,
+      "peak": 0.1773,
+      "status": "accepted"
+    },
+    {
+      "id": "offering_take",
+      "kind": "audio",
+      "path": "/assets/audio/offering_take.ogg",
+      "sourcePath": "assets-source/audio/offering_take.wav",
+      "generator": "tools/generate_audio.py",
+      "generationMethod": "deterministic-procedural-synthesis",
+      "seed": 7031,
+      "duration": 0.5,
+      "format": "ogg-vorbis",
+      "sampleRate": 22050,
+      "loop": false,
+      "peak": 0.0969,
+      "status": "accepted"
+    },
+    {
+      "id": "miracle_mercy",
+      "kind": "audio",
+      "path": "/assets/audio/miracle_mercy.ogg",
+      "sourcePath": "assets-source/audio/miracle_mercy.wav",
+      "generator": "tools/generate_audio.py",
+      "generationMethod": "deterministic-procedural-synthesis",
+      "seed": 7031,
+      "duration": 1.2,
+      "format": "ogg-vorbis",
+      "sampleRate": 22050,
+      "loop": false,
+      "peak": 0.1024,
+      "status": "accepted"
+    },
+    {
+      "id": "miracle_dominion",
+      "kind": "audio",
+      "path": "/assets/audio/miracle_dominion.ogg",
+      "sourcePath": "assets-source/audio/miracle_dominion.wav",
+      "generator": "tools/generate_audio.py",
+      "generationMethod": "deterministic-procedural-synthesis",
+      "seed": 7031,
+      "duration": 1.2,
+      "format": "ogg-vorbis",
+      "sampleRate": 22050,
+      "loop": false,
+      "peak": 0.1034,
+      "status": "accepted"
+    },
+    {
+      "id": "remnant_reveal",
+      "kind": "audio",
+      "path": "/assets/audio/remnant_reveal.ogg",
+      "sourcePath": "assets-source/audio/remnant_reveal.wav",
+      "generator": "tools/generate_audio.py",
+      "generationMethod": "deterministic-procedural-synthesis",
+      "seed": 7031,
+      "duration": 0.44997732426303855,
+      "format": "ogg-vorbis",
+      "sampleRate": 22050,
+      "loop": false,
+      "peak": 0.0994,
+      "status": "accepted"
+    },
+    {
+      "id": "day_turn",
+      "kind": "audio",
+      "path": "/assets/audio/day_turn.ogg",
+      "sourcePath": "assets-source/audio/day_turn.wav",
+      "generator": "tools/generate_audio.py",
+      "generationMethod": "deterministic-procedural-synthesis",
+      "seed": 7031,
+      "duration": 0.6499773242630386,
+      "format": "ogg-vorbis",
+      "sampleRate": 22050,
+      "loop": false,
+      "peak": 0.0312,
+      "status": "accepted"
+    },
+    {
+      "id": "awakening",
+      "kind": "audio",
+      "path": "/assets/audio/awakening.ogg",
+      "sourcePath": "assets-source/audio/awakening.wav",
+      "generator": "tools/generate_audio.py",
+      "generationMethod": "deterministic-procedural-synthesis",
+      "seed": 7031,
+      "duration": 2.6,
+      "format": "ogg-vorbis",
+      "sampleRate": 22050,
+      "loop": false,
+      "peak": 0.1484,
+      "status": "accepted"
+    },
+    {
+      "id": "ending_warm",
+      "kind": "audio",
+      "path": "/assets/audio/ending_warm.ogg",
+      "sourcePath": "assets-source/audio/ending_warm.wav",
+      "generator": "tools/generate_audio.py",
+      "generationMethod": "deterministic-procedural-synthesis",
+      "seed": 7031,
+      "duration": 2.2,
+      "format": "ogg-vorbis",
+      "sampleRate": 22050,
+      "loop": false,
+      "peak": 0.1373,
+      "status": "accepted"
+    },
+    {
+      "id": "ending_cold",
+      "kind": "audio",
+      "path": "/assets/audio/ending_cold.ogg",
+      "sourcePath": "assets-source/audio/ending_cold.wav",
+      "generator": "tools/generate_audio.py",
+      "generationMethod": "deterministic-procedural-synthesis",
+      "seed": 7031,
+      "duration": 2.2,
+      "format": "ogg-vorbis",
+      "sampleRate": 22050,
+      "loop": false,
+      "peak": 0.1325,
+      "status": "accepted"
+    },
+    {
+      "id": "dust_motes",
+      "kind": "procedural-effect",
+      "sourcePath": "src/style.css",
+      "generationMethod": "CSS geometry and keyframes",
+      "status": "accepted",
+      "reducedMotion": "static or suppressed"
+    },
+    {
+      "id": "candle_light",
+      "kind": "procedural-effect",
+      "sourcePath": "src/style.css",
+      "generationMethod": "CSS geometry and keyframes",
+      "status": "accepted",
+      "reducedMotion": "static or suppressed"
+    },
+    {
+      "id": "offering_flight",
+      "kind": "procedural-effect",
+      "sourcePath": "src/style.css",
+      "generationMethod": "CSS geometry and keyframes",
+      "status": "accepted",
+      "reducedMotion": "static or suppressed"
+    },
+    {
+      "id": "aspect_crossfade",
+      "kind": "procedural-effect",
+      "sourcePath": "src/style.css",
+      "generationMethod": "CSS geometry and keyframes",
+      "status": "accepted",
+      "reducedMotion": "static or suppressed"
+    }
+  ]
+}

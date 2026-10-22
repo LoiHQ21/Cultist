@@ -1,0 +1,4 @@
+Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore.  Actual transparent alpha outside the silhouette. NO backdrop, vignette, glow cloud or halo around isolated objects. Exactly one usable asset, no grids. One full-body adult mason from same village as Mara. Square shoulders, faded brick-red vest, bushy grey brows, stone-dust hands, small tool belt. Weary determination. Rounded storybook adult proportions, three-quarter facing right, entire boots clear margin.
+
+References:
+assets-source/images/mara_worried.png

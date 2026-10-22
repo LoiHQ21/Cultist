@@ -1,0 +1,749 @@
+{
+  "version": "1.0.0",
+  "scope": "Production asset plan; none of these assets has been generated in this handoff. The included concept sheet is a separate reference.",
+  "style_reference": "reference/storybook-concept.png",
+  "brief": "03-ART-AND-AUDIO.md",
+  "image_count": 42,
+  "images": [
+    {
+      "id": "bg_shrine",
+      "kind": "image",
+      "path": "/assets/backgrounds/bg-shrine.webp",
+      "working_size_target": {
+        "width": 1920,
+        "height": 1080
+      },
+      "alpha_required": false,
+      "brief_section": "7. Background and foreground prompts",
+      "generation_method": "image-generation-tool",
+      "status": "not_generated",
+      "source_path": null,
+      "prompt_path": null,
+      "actual_dimensions": null,
+      "anchors": {}
+    },
+    {
+      "id": "fg_altar",
+      "kind": "image",
+      "path": "/assets/props/fg-altar.webp",
+      "working_size_target": {
+        "width": 1600,
+        "height": 500
+      },
+      "alpha_required": true,
+      "brief_section": "7. Background and foreground prompts",
+      "generation_method": "image-generation-tool",
+      "status": "not_generated",
+      "source_path": null,
+      "prompt_path": null,
+      "actual_dimensions": null,
+      "anchors": {}
+    },
+    {
+      "id": "statue_listening",
+      "kind": "image",
+      "path": "/assets/statues/statue-listening.webp",
+      "working_size_target": {
+        "width": 1024,
+        "height": 1536
+      },
+      "alpha_required": true,
+      "brief_section": "8. Statue prompts and continuity",
+      "generation_method": "image-generation-tool",
+      "status": "not_generated",
+      "source_path": null,
+      "prompt_path": null,
+      "actual_dimensions": null,
+      "anchors": {}
+    },
+    {
+      "id": "statue_merciful",
+      "kind": "image",
+      "path": "/assets/statues/statue-merciful.webp",
+      "working_size_target": {
+        "width": 1024,
+        "height": 1536
+      },
+      "alpha_required": true,
+      "brief_section": "8. Statue prompts and continuity",
+      "generation_method": "image-generation-tool",
+      "status": "not_generated",
+      "source_path": null,
+      "prompt_path": null,
+      "actual_dimensions": null,
+      "anchors": {}
+    },
+    {
+      "id": "statue_possessive",
+      "kind": "image",
+      "path": "/assets/statues/statue-possessive.webp",
+      "working_size_target": {
+        "width": 1024,
+        "height": 1536
+      },
+      "alpha_required": true,
+      "brief_section": "8. Statue prompts and continuity",
+      "generation_method": "image-generation-tool",
+      "status": "not_generated",
+      "source_path": null,
+      "prompt_path": null,
+      "actual_dimensions": null,
+      "anchors": {}
+    },
+    {
+      "id": "mara_worried",
+      "kind": "image",
+      "path": "/assets/characters/mara-worried.webp",
+      "working_size_target": {
+        "width": 768,
+        "height": 1024
+      },
+      "alpha_required": true,
+      "brief_section": "9. Character prompts",
+      "generation_method": "image-generation-tool",
+      "status": "not_generated",
+      "source_path": null,
+      "prompt_path": null,
+      "actual_dimensions": null,
+      "anchors": {}
+    },
+    {
+      "id": "mara_relieved",
+      "kind": "image",
+      "path": "/assets/characters/mara-relieved.webp",
+      "working_size_target": {
+        "width": 768,
+        "height": 1024
+      },
+      "alpha_required": true,
+      "brief_section": "9. Character prompts",
+      "generation_method": "image-generation-tool",
+      "status": "not_generated",
+      "source_path": null,
+      "prompt_path": null,
+      "actual_dimensions": null,
+      "anchors": {}
+    },
+    {
+      "id": "ivo_worried",
+      "kind": "image",
+      "path": "/assets/characters/ivo-worried.webp",
+      "working_size_target": {
+        "width": 768,
+        "height": 1024
+      },
+      "alpha_required": true,
+      "brief_section": "9. Character prompts",
+      "generation_method": "image-generation-tool",
+      "status": "not_generated",
+      "source_path": null,
+      "prompt_path": null,
+      "actual_dimensions": null,
+      "anchors": {}
+    },
+    {
+      "id": "ivo_relieved",
+      "kind": "image",
+      "path": "/assets/characters/ivo-relieved.webp",
+      "working_size_target": {
+        "width": 768,
+        "height": 1024
+      },
+      "alpha_required": true,
+      "brief_section": "9. Character prompts",
+      "generation_method": "image-generation-tool",
+      "status": "not_generated",
+      "source_path": null,
+      "prompt_path": null,
+      "actual_dimensions": null,
+      "anchors": {}
+    },
+    {
+      "id": "ada_worried",
+      "kind": "image",
+      "path": "/assets/characters/ada-worried.webp",
+      "working_size_target": {
+        "width": 768,
+        "height": 1024
+      },
+      "alpha_required": true,
+      "brief_section": "9. Character prompts",
+      "generation_method": "image-generation-tool",
+      "status": "not_generated",
+      "source_path": null,
+      "prompt_path": null,
+      "actual_dimensions": null,
+      "anchors": {}
+    },
+    {
+      "id": "ada_relieved",
+      "kind": "image",
+      "path": "/assets/characters/ada-relieved.webp",
+      "working_size_target": {
+        "width": 768,
+        "height": 1024
+      },
+      "alpha_required": true,
+      "brief_section": "9. Character prompts",
+      "generation_method": "image-generation-tool",
+      "status": "not_generated",
+      "source_path": null,
+      "prompt_path": null,
+      "actual_dimensions": null,
+      "anchors": {}
+    },
+    {
+      "id": "sela_worried",
+      "kind": "image",
+      "path": "/assets/characters/sela-worried.webp",
+      "working_size_target": {
+        "width": 768,
+        "height": 1024
+      },
+      "alpha_required": true,
+      "brief_section": "9. Character prompts",
+      "generation_method": "image-generation-tool",
+      "status": "not_generated",
+      "source_path": null,
+      "prompt_path": null,
+      "actual_dimensions": null,
+      "anchors": {}
+    },
+    {
+      "id": "sela_relieved",
+      "kind": "image",
+      "path": "/assets/characters/sela-relieved.webp",
+      "working_size_target": {
+        "width": 768,
+        "height": 1024
+      },
+      "alpha_required": true,
+      "brief_section": "9. Character prompts",
+      "generation_method": "image-generation-tool",
+      "status": "not_generated",
+      "source_path": null,
+      "prompt_path": null,
+      "actual_dimensions": null,
+      "anchors": {}
+    },
+    {
+      "id": "bram_worried",
+      "kind": "image",
+      "path": "/assets/characters/bram-worried.webp",
+      "working_size_target": {
+        "width": 768,
+        "height": 1024
+      },
+      "alpha_required": true,
+      "brief_section": "9. Character prompts",
+      "generation_method": "image-generation-tool",
+      "status": "not_generated",
+      "source_path": null,
+      "prompt_path": null,
+      "actual_dimensions": null,
+      "anchors": {}
+    },
+    {
+      "id": "bram_relieved",
+      "kind": "image",
+      "path": "/assets/characters/bram-relieved.webp",
+      "working_size_target": {
+        "width": 768,
+        "height": 1024
+      },
+      "alpha_required": true,
+      "brief_section": "9. Character prompts",
+      "generation_method": "image-generation-tool",
+      "status": "not_generated",
+      "source_path": null,
+      "prompt_path": null,
+      "actual_dimensions": null,
+      "anchors": {}
+    },
+    {
+      "id": "nell_worried",
+      "kind": "image",
+      "path": "/assets/characters/nell-worried.webp",
+      "working_size_target": {
+        "width": 768,
+        "height": 1024
+      },
+      "alpha_required": true,
+      "brief_section": "9. Character prompts",
+      "generation_method": "image-generation-tool",
+      "status": "not_generated",
+      "source_path": null,
+      "prompt_path": null,
+      "actual_dimensions": null,
+      "anchors": {}
+    },
+    {
+      "id": "nell_relieved",
+      "kind": "image",
+      "path": "/assets/characters/nell-relieved.webp",
+      "working_size_target": {
+        "width": 768,
+        "height": 1024
+      },
+      "alpha_required": true,
+      "brief_section": "9. Character prompts",
+      "generation_method": "image-generation-tool",
+      "status": "not_generated",
+      "source_path": null,
+      "prompt_path": null,
+      "actual_dimensions": null,
+      "anchors": {}
+    },
+    {
+      "id": "chain",
+      "kind": "image",
+      "path": "/assets/offerings/chain.webp",
+      "working_size_target": {
+        "width": 512,
+        "height": 512
+      },
+      "alpha_required": true,
+      "brief_section": "10. Offering prompts",
+      "generation_method": "image-generation-tool",
+      "status": "not_generated",
+      "source_path": null,
+      "prompt_path": null,
+      "actual_dimensions": null,
+      "anchors": {}
+    },
+    {
+      "id": "seed",
+      "kind": "image",
+      "path": "/assets/offerings/seed.webp",
+      "working_size_target": {
+        "width": 512,
+        "height": 512
+      },
+      "alpha_required": true,
+      "brief_section": "10. Offering prompts",
+      "generation_method": "image-generation-tool",
+      "status": "not_generated",
+      "source_path": null,
+      "prompt_path": null,
+      "actual_dimensions": null,
+      "anchors": {}
+    },
+    {
+      "id": "knife",
+      "kind": "image",
+      "path": "/assets/offerings/knife.webp",
+      "working_size_target": {
+        "width": 512,
+        "height": 512
+      },
+      "alpha_required": true,
+      "brief_section": "10. Offering prompts",
+      "generation_method": "image-generation-tool",
+      "status": "not_generated",
+      "source_path": null,
+      "prompt_path": null,
+      "actual_dimensions": null,
+      "anchors": {}
+    },
+    {
+      "id": "ring",
+      "kind": "image",
+      "path": "/assets/offerings/ring.webp",
+      "working_size_target": {
+        "width": 512,
+        "height": 512
+      },
+      "alpha_required": true,
+      "brief_section": "10. Offering prompts",
+      "generation_method": "image-generation-tool",
+      "status": "not_generated",
+      "source_path": null,
+      "prompt_path": null,
+      "actual_dimensions": null,
+      "anchors": {}
+    },
+    {
+      "id": "bell",
+      "kind": "image",
+      "path": "/assets/offerings/bell.webp",
+      "working_size_target": {
+        "width": 512,
+        "height": 512
+      },
+      "alpha_required": true,
+      "brief_section": "10. Offering prompts",
+      "generation_method": "image-generation-tool",
+      "status": "not_generated",
+      "source_path": null,
+      "prompt_path": null,
+      "actual_dimensions": null,
+      "anchors": {}
+    },
+    {
+      "id": "mirror",
+      "kind": "image",
+      "path": "/assets/offerings/mirror.webp",
+      "working_size_target": {
+        "width": 512,
+        "height": 512
+      },
+      "alpha_required": true,
+      "brief_section": "10. Offering prompts",
+      "generation_method": "image-generation-tool",
+      "status": "not_generated",
+      "source_path": null,
+      "prompt_path": null,
+      "actual_dimensions": null,
+      "anchors": {}
+    },
+    {
+      "id": "biting_grain",
+      "kind": "image",
+      "path": "/assets/offerings/biting-grain.webp",
+      "working_size_target": {
+        "width": 512,
+        "height": 512
+      },
+      "alpha_required": true,
+      "brief_section": "10. Offering prompts",
+      "generation_method": "image-generation-tool",
+      "status": "not_generated",
+      "source_path": null,
+      "prompt_path": null,
+      "actual_dimensions": null,
+      "anchors": {}
+    },
+    {
+      "id": "guardian_tear",
+      "kind": "image",
+      "path": "/assets/offerings/guardian-tear.webp",
+      "working_size_target": {
+        "width": 512,
+        "height": 512
+      },
+      "alpha_required": true,
+      "brief_section": "10. Offering prompts",
+      "generation_method": "image-generation-tool",
+      "status": "not_generated",
+      "source_path": null,
+      "prompt_path": null,
+      "actual_dimensions": null,
+      "anchors": {}
+    },
+    {
+      "id": "loose_shadow",
+      "kind": "image",
+      "path": "/assets/offerings/loose-shadow.webp",
+      "working_size_target": {
+        "width": 512,
+        "height": 512
+      },
+      "alpha_required": true,
+      "brief_section": "10. Offering prompts",
+      "generation_method": "image-generation-tool",
+      "status": "not_generated",
+      "source_path": null,
+      "prompt_path": null,
+      "actual_dimensions": null,
+      "anchors": {}
+    },
+    {
+      "id": "forgotten_name",
+      "kind": "image",
+      "path": "/assets/offerings/forgotten-name.webp",
+      "working_size_target": {
+        "width": 512,
+        "height": 512
+      },
+      "alpha_required": true,
+      "brief_section": "10. Offering prompts",
+      "generation_method": "image-generation-tool",
+      "status": "not_generated",
+      "source_path": null,
+      "prompt_path": null,
+      "actual_dimensions": null,
+      "anchors": {}
+    },
+    {
+      "id": "trace_guardian",
+      "kind": "image",
+      "path": "/assets/props/trace-guardian.webp",
+      "working_size_target": {
+        "width": 768,
+        "height": 768
+      },
+      "alpha_required": true,
+      "brief_section": "11. Miracle traces",
+      "generation_method": "image-generation-tool",
+      "status": "not_generated",
+      "source_path": null,
+      "prompt_path": null,
+      "actual_dimensions": null,
+      "anchors": {}
+    },
+    {
+      "id": "trace_grain",
+      "kind": "image",
+      "path": "/assets/props/trace-grain.webp",
+      "working_size_target": {
+        "width": 768,
+        "height": 768
+      },
+      "alpha_required": true,
+      "brief_section": "11. Miracle traces",
+      "generation_method": "image-generation-tool",
+      "status": "not_generated",
+      "source_path": null,
+      "prompt_path": null,
+      "actual_dimensions": null,
+      "anchors": {}
+    },
+    {
+      "id": "trace_shadow",
+      "kind": "image",
+      "path": "/assets/props/trace-shadow.webp",
+      "working_size_target": {
+        "width": 768,
+        "height": 768
+      },
+      "alpha_required": true,
+      "brief_section": "11. Miracle traces",
+      "generation_method": "image-generation-tool",
+      "status": "not_generated",
+      "source_path": null,
+      "prompt_path": null,
+      "actual_dimensions": null,
+      "anchors": {}
+    },
+    {
+      "id": "trace_names",
+      "kind": "image",
+      "path": "/assets/props/trace-names.webp",
+      "working_size_target": {
+        "width": 768,
+        "height": 768
+      },
+      "alpha_required": true,
+      "brief_section": "11. Miracle traces",
+      "generation_method": "image-generation-tool",
+      "status": "not_generated",
+      "source_path": null,
+      "prompt_path": null,
+      "actual_dimensions": null,
+      "anchors": {}
+    },
+    {
+      "id": "awakening_listening",
+      "kind": "image",
+      "path": "/assets/backgrounds/awakening-listening.webp",
+      "working_size_target": {
+        "width": 1920,
+        "height": 1080
+      },
+      "alpha_required": false,
+      "brief_section": "12. Awakening and ending scenes",
+      "generation_method": "image-generation-tool",
+      "status": "not_generated",
+      "source_path": null,
+      "prompt_path": null,
+      "actual_dimensions": null,
+      "anchors": {}
+    },
+    {
+      "id": "awakening_merciful",
+      "kind": "image",
+      "path": "/assets/backgrounds/awakening-merciful.webp",
+      "working_size_target": {
+        "width": 1920,
+        "height": 1080
+      },
+      "alpha_required": false,
+      "brief_section": "12. Awakening and ending scenes",
+      "generation_method": "image-generation-tool",
+      "status": "not_generated",
+      "source_path": null,
+      "prompt_path": null,
+      "actual_dimensions": null,
+      "anchors": {}
+    },
+    {
+      "id": "awakening_possessive",
+      "kind": "image",
+      "path": "/assets/backgrounds/awakening-possessive.webp",
+      "working_size_target": {
+        "width": 1920,
+        "height": 1080
+      },
+      "alpha_required": false,
+      "brief_section": "12. Awakening and ending scenes",
+      "generation_method": "image-generation-tool",
+      "status": "not_generated",
+      "source_path": null,
+      "prompt_path": null,
+      "actual_dimensions": null,
+      "anchors": {}
+    },
+    {
+      "id": "ending_quiet",
+      "kind": "image",
+      "path": "/assets/endings/ending-quiet.webp",
+      "working_size_target": {
+        "width": 1920,
+        "height": 1080
+      },
+      "alpha_required": false,
+      "brief_section": "12. Awakening and ending scenes",
+      "generation_method": "image-generation-tool",
+      "status": "not_generated",
+      "source_path": null,
+      "prompt_path": null,
+      "actual_dimensions": null,
+      "anchors": {}
+    },
+    {
+      "id": "ending_guarded",
+      "kind": "image",
+      "path": "/assets/endings/ending-guarded.webp",
+      "working_size_target": {
+        "width": 1920,
+        "height": 1080
+      },
+      "alpha_required": false,
+      "brief_section": "12. Awakening and ending scenes",
+      "generation_method": "image-generation-tool",
+      "status": "not_generated",
+      "source_path": null,
+      "prompt_path": null,
+      "actual_dimensions": null,
+      "anchors": {}
+    },
+    {
+      "id": "ending_desolate",
+      "kind": "image",
+      "path": "/assets/endings/ending-desolate.webp",
+      "working_size_target": {
+        "width": 1920,
+        "height": 1080
+      },
+      "alpha_required": false,
+      "brief_section": "12. Awakening and ending scenes",
+      "generation_method": "image-generation-tool",
+      "status": "not_generated",
+      "source_path": null,
+      "prompt_path": null,
+      "actual_dimensions": null,
+      "anchors": {}
+    },
+    {
+      "id": "ui_parchment",
+      "kind": "image",
+      "path": "/assets/ui/ui-parchment.webp",
+      "working_size_target": {
+        "width": 1024,
+        "height": 768
+      },
+      "alpha_required": false,
+      "brief_section": "13. Interface materials and props",
+      "generation_method": "image-generation-tool",
+      "status": "not_generated",
+      "source_path": null,
+      "prompt_path": null,
+      "actual_dimensions": null,
+      "anchors": {}
+    },
+    {
+      "id": "ui_wood",
+      "kind": "image",
+      "path": "/assets/ui/ui-wood.webp",
+      "working_size_target": {
+        "width": 1024,
+        "height": 512
+      },
+      "alpha_required": false,
+      "brief_section": "13. Interface materials and props",
+      "generation_method": "image-generation-tool",
+      "status": "not_generated",
+      "source_path": null,
+      "prompt_path": null,
+      "actual_dimensions": null,
+      "anchors": {}
+    },
+    {
+      "id": "ui_card",
+      "kind": "image",
+      "path": "/assets/ui/ui-card.webp",
+      "working_size_target": {
+        "width": 512,
+        "height": 640
+      },
+      "alpha_required": true,
+      "brief_section": "13. Interface materials and props",
+      "generation_method": "image-generation-tool",
+      "status": "not_generated",
+      "source_path": null,
+      "prompt_path": null,
+      "actual_dimensions": null,
+      "anchors": {}
+    },
+    {
+      "id": "prop_bell",
+      "kind": "image",
+      "path": "/assets/props/prop-bell.webp",
+      "working_size_target": {
+        "width": 512,
+        "height": 768
+      },
+      "alpha_required": true,
+      "brief_section": "13. Interface materials and props",
+      "generation_method": "image-generation-tool",
+      "status": "not_generated",
+      "source_path": null,
+      "prompt_path": null,
+      "actual_dimensions": null,
+      "anchors": {}
+    },
+    {
+      "id": "prop_candles",
+      "kind": "image",
+      "path": "/assets/props/prop-candles.webp",
+      "working_size_target": {
+        "width": 512,
+        "height": 768
+      },
+      "alpha_required": true,
+      "brief_section": "13. Interface materials and props",
+      "generation_method": "image-generation-tool",
+      "status": "not_generated",
+      "source_path": null,
+      "prompt_path": null,
+      "actual_dimensions": null,
+      "anchors": {}
+    }
+  ],
+  "audio": {
+    "status": "not_generated",
+    "brief_section": "15. Generated audio",
+    "required_sfx": [
+      "ui_pick",
+      "ui_place",
+      "page_turn",
+      "ritual_bell",
+      "stone_breath",
+      "offering_take",
+      "miracle_mercy",
+      "miracle_dominion",
+      "remnant_reveal",
+      "day_turn",
+      "awakening",
+      "ending_warm",
+      "ending_cold"
+    ],
+    "required_music": [
+      "shrine",
+      "awakening",
+      "ending_warm",
+      "ending_cold"
+    ],
+    "default_generation_method": "deterministic procedural synthesis"
+  }
+}

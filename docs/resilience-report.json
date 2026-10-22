@@ -1,0 +1,10 @@
+{
+  "browser": "154.0.8037.57",
+  "checks": [
+    "Normal animation reload is idempotent; drag/remove equivalent to click",
+    "Generated audio decodes/plays after gesture; mute and unmute work",
+    "Clear data confirmation can be cancelled",
+    "Storage denial retains playable in-memory session",
+    "Incompatible save is rejected, separate discoveries preserved"
+  ]
+}

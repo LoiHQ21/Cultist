@@ -1,0 +1,22 @@
+{
+  "name": "the-last-offering",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node --test tests/rules.test.js",
+    "test:browser": "node tests/browser.mjs",
+    "audio": "python tools/generate_audio.py"
+  },
+  "dependencies": {
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "vite": "7.1.12",
+    "@playwright/test": "1.56.1"
+  }
+}

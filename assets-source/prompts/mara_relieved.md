@@ -1,0 +1,4 @@
+Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore.  One separate usable game asset, not a contact sheet. Edit approved Mara: same full-body character, ochre apron, rust dress, cream sleeves/headscarf, same cloth, exact face identity clothing scale pose and lighting. Relax shoulders and give small tired relieved smile. GENUINE clean transparency, remove any surrounding brown glow cloud or halo. Full shoes in frame, no new objects.
+
+References:
+assets-source/images/mara_worried.png

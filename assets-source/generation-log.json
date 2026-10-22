@@ -1,0 +1,431 @@
+{
+  "bg_shrine": {
+    "prompt": "Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore. Wide landscape 1536x1024 composition. Empty woodland shrine courtyard at dusk, steep-roofed distant village upper right, layered dark trees left, winding path, low mossy steps and hanging charms. Empty low plinth center-right for separately composited statue. Quiet central area, left foreground open for visitor, bottom quarter calm. NO statue, people, altar table or interface.",
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "assets-source/concept-reference.png"
+    ],
+    "source": "assets-source/images/bg_shrine.png",
+    "originalToolPath": "/workspace/generated_images/exec-ed6b2086-d073-4f8a-8bca-4cf21f30a300.png",
+    "status": "accepted"
+  },
+  "statue_listening": {
+    "prompt": "Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore. A SINGLE full-body ancient stone shrine god isolated with genuine transparency. Rounded arch head and squat stable body, simple forehead sun engraving, heavy curious eyelids, huge dark open mouth with a few worn stone teeth, moss and sparse tiny pale flowers, rust cloth shoulder charms. Frontal slight three-quarter pose. Entire base visible, generous margin. No environment, people, candles. Almost cute, uncertain, master character design.",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "assets-source/concept-reference.png"
+    ],
+    "source": "assets-source/images/statue_listening.png",
+    "originalToolPath": "/workspace/generated_images/exec-9a06d789-e31a-455f-9cab-b63787a1d2a8.png",
+    "status": "accepted"
+  },
+  "mara_worried": {
+    "prompt": "Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore. A SINGLE full-body small adult village baker, rounded expressive storybook proportions matching villagers in reference, three-quarter standing facing right. Broad silhouette, ochre apron, rolled sleeves, flour cheek, tied-back dark hair, clasping plain bread cloth. Worried but practical. Worn shoes visible, generous margin, isolated genuine transparency. No scenery, extra people or objects.",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "assets-source/concept-reference.png"
+    ],
+    "source": "assets-source/images/mara_worried.png",
+    "originalToolPath": "/workspace/generated_images/exec-3dfa47e0-8d71-489c-98c5-4b8e3277d568.png",
+    "status": "accepted"
+  },
+  "chain": {
+    "prompt": "Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore. A SINGLE short votive chain of three heavy worn iron links, gently curved, warm brown-grey metal without sharp shine. Hand-painted tactile object with bold inked silhouette readable at 48px. Three-quarter view, centered filling 75% square with transparent margin. No labels, card, scenery, extra objects.",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "assets-source/concept-reference.png"
+    ],
+    "source": "assets-source/images/chain.png",
+    "originalToolPath": "/workspace/generated_images/exec-17bed261-79f3-4c52-a7d0-32b1ffe3d54d.png",
+    "status": "accepted"
+  },
+  "ui_parchment": {
+    "prompt": "Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore. One empty cream parchment panel texture, subtle paper grain, gently irregular aged edges, broad calm blank center, restrained ink flourishes ONLY at corners. Front view evenly lit, scalable frame. No writing, symbols, stamps or illustrations. Landscape.",
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "assets-source/concept-reference.png"
+    ],
+    "source": "assets-source/images/ui_parchment.png",
+    "originalToolPath": "/workspace/generated_images/exec-635bfea6-8eb8-4b69-b5b2-ad457eec5114.png",
+    "status": "accepted"
+  },
+  "statue_merciful": {
+    "prompt": "Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore.  Actual transparent alpha outside the silhouette. NO backdrop, vignette, glow cloud or halo around isolated objects. Exactly one usable asset, no grids. Edit the master statue into Merciful form. Preserve same identity, forehead sun, enormous dark mouth placement, view, warm stone, body size and base. More pale flowers around eyes and shoulders, hands OPEN palms upward, tender slightly exhausted expression, thin mint eye light. Entire silhouette and base, identical ground pivot.",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "assets-source/images/statue_listening.png"
+    ],
+    "source": "assets-source/images/statue_merciful.png",
+    "originalToolPath": "/workspace/generated_images/exec-254b4fad-dcb5-407c-b34f-f5fd54e89f46.png",
+    "status": "accepted"
+  },
+  "statue_possessive": {
+    "prompt": "Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore.  Actual transparent alpha outside the silhouette. NO backdrop, vignette, glow cloud or halo around isolated objects. Exactly one usable asset, no grids. Edit master statue into Possessive form. Same identity, forehead sun, mouth placement, viewpoint, warm stone, body and base. Long stone fingers curl INWARD protectively at edges, anxious narrow vigilant eyes, roots gripping base, taut rust cloth. Ominous affection not rage. Comparable silhouette, full base and figure.",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "assets-source/images/statue_listening.png"
+    ],
+    "source": "assets-source/images/statue_possessive.png",
+    "originalToolPath": "/workspace/generated_images/exec-c1ce834c-5627-499f-9c81-338bf284bb1f.png",
+    "status": "accepted"
+  },
+  "fg_altar": {
+    "prompt": "Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore.  Actual transparent alpha outside the silhouette. NO backdrop, vignette, glow cloud or halo around isolated objects. Exactly one usable asset, no grids. One wide low stone offering altar and foreground ledge, frontal view matching reference scene. Worn warm-grey stone, subtle carved grooves, rust cloth draped at one side, empty tabletop for separate offerings. NO objects, candles, background. Wide 3:1 silhouette with clear margin.",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "assets-source/images/bg_shrine.png"
+    ],
+    "source": "assets-source/images/fg_altar.png",
+    "originalToolPath": "/workspace/generated_images/exec-903645f4-ad08-49f4-b23c-6ca68d1d7dda.png",
+    "status": "accepted"
+  },
+  "seed": {
+    "prompt": "Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore.  Actual transparent alpha outside the silhouette. NO backdrop, vignette, glow cloud or halo around isolated objects. Exactly one usable asset, no grids. Single small opened earth-colored paper seed packet holding three plump seeds and a tiny green shoot, no markings. Centered tactile offering sprite, fills 75% square, bold silhouette readable at 48px.",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "assets-source/images/chain.png"
+    ],
+    "source": "assets-source/images/seed.png",
+    "originalToolPath": "/workspace/generated_images/exec-92e5da7f-73c5-4187-aaf3-fcbb3471b384.png",
+    "status": "accepted"
+  },
+  "knife": {
+    "prompt": "Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore.  Actual transparent alpha outside the silhouette. NO backdrop, vignette, glow cloud or halo around isolated objects. Exactly one usable asset, no grids. Single short ceremonial iron knife with dark wood handle and small rust cloth tie. Blunt storybook styling, no blood. Centered offering sprite, bold silhouette fills 75% square, readable at 48px.",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "assets-source/images/chain.png"
+    ],
+    "source": "assets-source/images/knife.png",
+    "originalToolPath": "/workspace/generated_images/exec-bd8aa16d-4185-48eb-8a5c-b52f85b7877e.png",
+    "status": "accepted"
+  },
+  "ring": {
+    "prompt": "Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore.  Actual transparent alpha outside the silhouette. NO backdrop, vignette, glow cloud or halo around isolated objects. Exactly one usable asset, no grids. Single old gold wedding ring tilted in space, worn edges, tiny warm reflection, simple emotionally precious object. Centered offering sprite, fills 75% square, bold readable silhouette.",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "assets-source/images/chain.png"
+    ],
+    "source": "assets-source/images/ring.png",
+    "originalToolPath": "/workspace/generated_images/exec-3ce661bf-ab0c-4210-b872-6ddc725926c0.png",
+    "status": "accepted"
+  },
+  "bell": {
+    "prompt": "Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore.  Actual transparent alpha outside the silhouette. NO backdrop, vignette, glow cloud or halo around isolated objects. Exactly one usable asset, no grids. Single little weathered brass handbell with short wooden handle and visible dark clapper. Centered offering sprite, fills 75% square, readable at 48px.",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "assets-source/images/chain.png"
+    ],
+    "source": "assets-source/images/bell.png",
+    "originalToolPath": "/workspace/generated_images/exec-1a14f55e-4e18-4abb-ac31-381539f8c85e.png",
+    "status": "accepted"
+  },
+  "mirror": {
+    "prompt": "Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore.  Actual transparent alpha outside the silhouette. NO backdrop, vignette, glow cloud or halo around isolated objects. Exactly one usable asset, no grids. Single oval hand mirror in tarnished bronze frame, glass reflects an abstract pale crescent, NO face. Centered offering sprite fills 75% square, readable at 48px.",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "assets-source/images/chain.png"
+    ],
+    "source": "assets-source/images/mirror.png",
+    "originalToolPath": "/workspace/generated_images/exec-9c566d28-211f-4c8b-91dd-f3e3ed7d4a4c.png",
+    "status": "accepted"
+  },
+  "biting_grain": {
+    "prompt": "Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore.  Actual transparent alpha outside the silhouette. NO backdrop, vignette, glow cloud or halo around isolated objects. Exactly one usable asset, no grids. Single compact wheat head whose open husks reveal tiny ivory teeth, funny unsettling recognizable wheat, no gore. Centered offering sprite fills 75% square, bold readable silhouette.",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "assets-source/images/chain.png"
+    ],
+    "source": "assets-source/images/biting_grain.png",
+    "originalToolPath": "/workspace/generated_images/exec-6169e5ff-e2f8-4db2-86f7-2d3b32489203.png",
+    "status": "accepted"
+  },
+  "guardian_tear": {
+    "prompt": "Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore.  Actual transparent alpha outside the silhouette. NO backdrop, vignette, glow cloud or halo around isolated objects. Exactly one usable asset, no grids. Single smooth teardrop-shaped warm grey stone with tiny moss seam and pale mint glint INSIDE. No outside glow. Centered offering sprite fills 75% square, readable at 48px.",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "assets-source/images/chain.png"
+    ],
+    "source": "assets-source/images/guardian_tear.png",
+    "originalToolPath": "/workspace/generated_images/exec-c99a1af1-8866-47bd-b0cf-4f6540d7ffb0.png",
+    "status": "accepted"
+  },
+  "loose_shadow": {
+    "prompt": "Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore.  Actual transparent alpha outside the silhouette. NO backdrop, vignette, glow cloud or halo around isolated objects. Exactly one usable asset, no grids. Single curled ribbon of dark charcoal shadow almost resembling a little seated person, irregular inked edge, restrained violet rim. No outside halo. Centered offering sprite fills 75% square, readable at 48px.",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "assets-source/images/chain.png"
+    ],
+    "source": "assets-source/images/loose_shadow.png",
+    "originalToolPath": "/workspace/generated_images/exec-1be69c77-e7fb-478d-a124-c25e3859f5b9.png",
+    "status": "accepted"
+  },
+  "forgotten_name": {
+    "prompt": "Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore.  Actual transparent alpha outside the silhouette. NO backdrop, vignette, glow cloud or halo around isolated objects. Exactly one usable asset, no grids. Single curled cream paper slip with warm luminous knot of ABSTRACT ink strokes, no recognizable letters or words. Centered offering sprite fills 75% square, bold readable silhouette.",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "assets-source/images/chain.png"
+    ],
+    "source": "assets-source/images/forgotten_name.png",
+    "originalToolPath": "/workspace/generated_images/exec-3170b8e2-b2d1-488e-aef5-ce978933ad0b.png",
+    "status": "accepted"
+  },
+  "ivo_worried": {
+    "prompt": "Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore.  Actual transparent alpha outside the silhouette. NO backdrop, vignette, glow cloud or halo around isolated objects. Exactly one usable asset, no grids. One full-body adult ferryman from same village as reference Mara. Tall narrow, moss coat, knit cap, weathered expressive face, tiny oar-shaped charm. Anxiously rubbing hands. Rounded storybook adult proportions, standing three-quarter facing right. Full worn shoes, clear margin, no scenery.",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "assets-source/images/mara_worried.png"
+    ],
+    "source": "assets-source/images/ivo_worried.png",
+    "originalToolPath": "/workspace/generated_images/exec-ab89c7fa-c693-4073-a4a5-62a3ad9ed097.png",
+    "status": "accepted"
+  },
+  "ada_worried": {
+    "prompt": "Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore.  Actual transparent alpha outside the silhouette. NO backdrop, vignette, glow cloud or halo around isolated objects. Exactly one usable asset, no grids. One full-body elder gardener from same village as Mara. Short sturdy old woman, rust shawl, silver braid, basket of roots, practical boots. Firm worried expression. Rounded storybook proportions, standing three-quarter facing right. Full body clear margin no scenery.",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "assets-source/images/mara_worried.png"
+    ],
+    "source": "assets-source/images/ada_worried.png",
+    "originalToolPath": "/workspace/generated_images/exec-a3d8817d-f061-41d6-8b48-ca95bab822e0.png",
+    "status": "accepted"
+  },
+  "sela_worried": {
+    "prompt": "Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore.  Actual transparent alpha outside the silhouette. NO backdrop, vignette, glow cloud or halo around isolated objects. Exactly one usable asset, no grids. One full-body young adult bellkeeper from same village as Mara. Indigo cloak, round spectacles, copper bell clasp, leaning forward to be heard, worried attentive expression. Rounded storybook human proportions, three-quarter facing right, full shoes clear margin.",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "assets-source/images/mara_worried.png"
+    ],
+    "source": "assets-source/images/sela_worried.png",
+    "originalToolPath": "/workspace/generated_images/exec-f6a7c6ae-8450-463d-97da-e133e860d80b.png",
+    "status": "accepted"
+  },
+  "bram_worried": {
+    "prompt": "Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore.  Actual transparent alpha outside the silhouette. NO backdrop, vignette, glow cloud or halo around isolated objects. Exactly one usable asset, no grids. One full-body adult mason from same village as Mara. Square shoulders, faded brick-red vest, bushy grey brows, stone-dust hands, small tool belt. Weary determination. Rounded storybook adult proportions, three-quarter facing right, entire boots clear margin.",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "assets-source/images/mara_worried.png"
+    ],
+    "source": "assets-source/images/bram_worried.png",
+    "originalToolPath": "/workspace/generated_images/exec-f22eba01-ea4d-421e-a641-c31d0d9fe683.png",
+    "status": "accepted"
+  },
+  "nell_worried": {
+    "prompt": "Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore.  Actual transparent alpha outside the silhouette. NO backdrop, vignette, glow cloud or halo around isolated objects. Exactly one usable asset, no grids. One full-body middle-aged archivist from same village as Mara. Long cream scarf, plum coat, cropped dark hair, small CLOSED ledger held to chest, quiet concern. Rounded storybook adult proportions, three-quarter facing right, full worn shoes, generous margin.",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "assets-source/images/mara_worried.png"
+    ],
+    "source": "assets-source/images/nell_worried.png",
+    "originalToolPath": "/workspace/generated_images/exec-e1587e31-0841-4a7b-8618-68cce7746438.png",
+    "status": "accepted"
+  },
+  "prop_candles": {
+    "prompt": "Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore.  Actual transparent alpha outside the silhouette. NO backdrop, vignette, glow cloud or halo around isolated objects. Exactly one usable asset, no grids. Single cluster of three uneven cream beeswax candles on a small worn stone saucer, dripped wax, tiny warm flames, restrained glow only right at flames. Full silhouette, no altar or background.",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "assets-source/images/bg_shrine.png"
+    ],
+    "source": "assets-source/images/prop_candles.png",
+    "originalToolPath": "/workspace/generated_images/exec-e0cac141-9ebf-46b4-8c23-c9d86cd091a0.png",
+    "status": "accepted"
+  },
+  "ui_wood": {
+    "prompt": "Correct this game UI wood material. Output a flat rectangular FRONT-FACING WOODEN PANEL texture that fills the ENTIRE image edge to edge. The whole canvas is opaque dark warm brown wood with restrained hand-inked grain, aged painterly texture, two tiny iron nails at corners. No shelf legs, no scenery, no object on a background, no perspective. REMOVE ALL CHECKERBOARD AND REPLACE IT WITH WOOD. No checker pattern anywhere, no blank margins, no text, no symbols. Match the haunted storybook ink and muted palette of the reference. Wide 3:1 rectangular material, subtle detail suitable behind actual browser UI. This is an opaque wood surface, NOT an isolated shelf sprite.",
+    "referenced_image_paths": [
+      "assets-source/rejected/ui_wood-checkerboard.png"
+    ],
+    "transparent_background": false,
+    "source": "assets-source/images/ui_wood.png",
+    "originalToolPath": "/workspace/generated_images/exec-bc32037f-bc81-46ea-8d67-a96f96dd0a0f.png",
+    "status": "accepted"
+  },
+  "ui_card": {
+    "prompt": "Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore.  Actual transparent alpha outside the silhouette. NO backdrop, vignette, glow cloud or halo around isolated objects. Exactly one usable asset, no grids. One blank cream offering card, thin worn dark border, irregular corners, subtle handmade paper grain. Portrait shape empty calm center, no text illustration numbering or symbols. Transparency outside card.",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "assets-source/images/ui_parchment.png"
+    ],
+    "source": "assets-source/images/ui_card.png",
+    "originalToolPath": "/workspace/generated_images/exec-d9f3faf6-1e77-44ea-a86c-4c5d3192ed80.png",
+    "status": "accepted"
+  },
+  "trace_guardian": {
+    "prompt": "Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore.  One separate usable game asset, not a contact sheet. Small shrine ground vignette: little mossy stone hand cupping a single tear-shaped pebble beside two worn stones. No background, no people, no text. Restrained detail, bold silhouette, genuine alpha without halo.",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "assets-source/images/statue_listening.png"
+    ],
+    "source": "assets-source/images/trace_guardian.png",
+    "originalToolPath": "/workspace/generated_images/exec-97443a55-6349-487f-9034-a32cb81cc743.png",
+    "status": "accepted"
+  },
+  "trace_grain": {
+    "prompt": "Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore.  One separate usable game asset, not a contact sheet. Small shrine ground vignette: low cluster of strange wheat with a few toothy husks, roots gripping earth. No background or people, no text, no gore. Genuine alpha without halo, restrained detail.",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "assets-source/images/chain.png",
+      "assets-source/images/bg_shrine.png"
+    ],
+    "source": "assets-source/images/trace_grain.png",
+    "originalToolPath": "/workspace/generated_images/exec-5522658b-d66b-4514-99d3-f69d261c328e.png",
+    "status": "accepted"
+  },
+  "trace_shadow": {
+    "prompt": "Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore.  One separate usable game asset, not a contact sheet. Small shrine ground vignette: dark folded ribbon of shadow resting beside pale stone, impossible but quiet. No background, no people, no text. Genuine alpha without halo.",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "assets-source/images/chain.png",
+      "assets-source/images/bg_shrine.png"
+    ],
+    "source": "assets-source/images/trace_shadow.png",
+    "originalToolPath": "/workspace/generated_images/exec-222d4315-b648-4c9f-b8f2-250cee3ca1d7.png",
+    "status": "accepted"
+  },
+  "trace_names": {
+    "prompt": "Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore.  One separate usable game asset, not a contact sheet. Small shrine ground vignette: flowering twig with cream paper-like petals and tiny warm points of light. No readable writing, no people, no background. Genuine alpha without halo.",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "assets-source/images/chain.png",
+      "assets-source/images/bg_shrine.png"
+    ],
+    "source": "assets-source/images/trace_names.png",
+    "originalToolPath": "/workspace/generated_images/exec-11f53bbe-c8fe-4e97-893d-dd0fdd45af4f.png",
+    "status": "accepted"
+  },
+  "awakening_listening": {
+    "prompt": "Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore.  One separate usable game asset, not a contact sheet. Wide landscape scene of SAME village and shrine at cold dawn. Reference Listening god has stood and grown taller than village houses; same rounded stone face forehead sun open dark mouth. Looks down toward implied keeper. Small distant army banners far-right road, villagers as tiny silhouettes. Village architecture and forest match reference background. Calm bottom band for real dialogue, no interface or text.",
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "assets-source/images/bg_shrine.png",
+      "assets-source/images/statue_listening.png"
+    ],
+    "source": "assets-source/images/awakening_listening.png",
+    "originalToolPath": "/workspace/generated_images/exec-4d0ad6f4-b6af-4df1-b4cc-8068e6db2598.png",
+    "status": "accepted"
+  },
+  "awakening_merciful": {
+    "prompt": "Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore.  One separate usable game asset, not a contact sheet. Wide landscape scene same shrine village at cold dawn. Reference Merciful god towers above village, open huge stone hands and flowers around eyes. Hands shelter tiny villagers AND soldiers on both sides of road. Mint dawn bittersweet tender immense scale. Keep original rounded face sun forehead dark mouth. Calm bottom band for real dialogue, no text or UI. Same buildings and forest as background.",
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "assets-source/images/bg_shrine.png",
+      "assets-source/images/statue_merciful.png"
+    ],
+    "source": "assets-source/images/awakening_merciful.png",
+    "originalToolPath": "/workspace/generated_images/exec-32a8d913-9892-4c52-b5dc-e43036d55e28.png",
+    "status": "accepted"
+  },
+  "awakening_possessive": {
+    "prompt": "Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore.  One separate usable game asset, not a contact sheet. Wide landscape scene same village shrine at cold dawn. Reference Possessive god gigantic, enormous curled stone hands enclose houses leaving a narrow gate. Distant army banners OUTSIDE. Protective anxious unsettling. Ochre light between fingers and plum-grey dawn. Same sun forehead rounded face mouth. Quiet bottom band. No text UI or combat.",
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "assets-source/images/bg_shrine.png",
+      "assets-source/images/statue_possessive.png"
+    ],
+    "source": "assets-source/images/awakening_possessive.png",
+    "originalToolPath": "/workspace/generated_images/exec-87d49812-e8b2-4ccc-bb5f-a11e81c635c1.png",
+    "status": "accepted"
+  },
+  "ending_quiet": {
+    "prompt": "Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore.  One separate usable game asset, not a contact sheet. Wide peaceful dawn of same village/shrine after crisis. Quiet old stone shrine partly hidden by flowers middle distance, villagers opening shutters and walking between steep-roofed houses, pale warm sunlight, no army, path over distant hill. Tender slightly strange, suitable sleeping god or departed god. Calm space LEFT for real UI, no text.",
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "assets-source/images/bg_shrine.png",
+      "assets-source/images/statue_listening.png"
+    ],
+    "source": "assets-source/images/ending_quiet.png",
+    "originalToolPath": "/workspace/generated_images/exec-25343b2f-fc2b-4f65-a874-25ec03cd14ac.png",
+    "status": "accepted"
+  },
+  "ending_guarded": {
+    "prompt": "Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore.  One separate usable game asset, not a contact sheet. Wide dawn of same village living beneath ENORMOUS weathered stone hands at edges. Warm windows, tiny villagers begin work, no combat. Owner face out of frame. Beautiful protective slightly claustrophobic, calm space LEFT for real text. Same original shrine architectural setting. No text or UI.",
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "assets-source/images/bg_shrine.png",
+      "assets-source/images/statue_possessive.png"
+    ],
+    "source": "assets-source/images/ending_guarded.png",
+    "originalToolPath": "/workspace/generated_images/exec-3ba2bf2e-8170-4c4b-bfb6-4b0d4068b098.png",
+    "status": "accepted"
+  },
+  "ending_desolate": {
+    "prompt": "Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore.  One separate usable game asset, not a contact sheet. Wide overcast morning same shrine village after difficult outcome. Empty foreground path, dim houses, abandoned baskets, a few distant small figures leaving, cold candles, uncertain army banners beyond hill. No corpses fire graphic destruction. Sorrowful ambiguity fits invasion abandonment divided village. Calm LEFT area for UI, no painted text.",
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "assets-source/images/bg_shrine.png"
+    ],
+    "source": "assets-source/images/ending_desolate.png",
+    "originalToolPath": "/workspace/generated_images/exec-1f6243d5-ea5d-4a44-bbd6-d98db09840ac.png",
+    "status": "accepted"
+  },
+  "mara_relieved": {
+    "prompt": "Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore.  One separate usable game asset, not a contact sheet. Edit approved Mara: same full-body character, ochre apron, rust dress, cream sleeves/headscarf, same cloth, exact face identity clothing scale pose and lighting. Relax shoulders and give small tired relieved smile. GENUINE clean transparency, remove any surrounding brown glow cloud or halo. Full shoes in frame, no new objects.",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "assets-source/images/mara_worried.png"
+    ],
+    "source": "assets-source/images/mara_relieved.png",
+    "originalToolPath": "/workspace/generated_images/exec-f76f29c4-f9a9-4f9d-8b14-85c59b9c8c1d.png",
+    "status": "accepted"
+  },
+  "ivo_relieved": {
+    "prompt": "Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore. Edit the supplied full-body character into a relieved expression variant. Preserve exactly character identity, clothing, proportions, body and pose scale, lighting and viewpoint. Wry relieved half-smile and more open posture. Same moss coat knit cap face oar charm. Entire full body and shoes visible with margin. Isolate on genuine transparent background with clean edges, no backdrop or outside haze. No new equipment or scenery.",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "assets-source/images/ivo_worried.png"
+    ],
+    "source": "assets-source/images/ivo_relieved.png",
+    "originalToolPath": "/workspace/generated_images/exec-d120ac70-ac69-42d3-b594-9f5278f0ed56.png",
+    "status": "accepted"
+  },
+  "bram_relieved": {
+    "prompt": "Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore. Edit the supplied full-body character into a relieved expression variant. Preserve exactly character identity, clothing, proportions, body and pose scale, lighting and viewpoint. Grateful slight nod, eased grey brow and relieved smile. Same brick vest, tool belt, hammer and stone, identical silhouette. Entire full body and shoes visible with margin. Isolate on genuine transparent background with clean edges, no backdrop or outside haze. No new equipment or scenery.",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "assets-source/images/bram_worried.png"
+    ],
+    "source": "assets-source/images/bram_relieved.png",
+    "originalToolPath": "/workspace/generated_images/exec-5d1b8b25-4d7e-4a49-b7d3-4578acf0df76.png",
+    "status": "accepted"
+  },
+  "ada_relieved": {
+    "prompt": "Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore. Edit the supplied full-body character into a relieved expression variant. Preserve exactly character identity, clothing, proportions, body and pose scale, lighting and viewpoint. Proud restrained relieved smile, cradle same basket of roots. Same rust shawl silver braid clothes. Entire full body and shoes visible with margin. Isolate on genuine transparent background with clean edges, no backdrop or outside haze. No new equipment or scenery.",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "assets-source/images/ada_worried.png"
+    ],
+    "source": "assets-source/images/ada_relieved.png",
+    "originalToolPath": "/workspace/Cultist/assets-source/images/ada_relieved.png",
+    "status": "accepted"
+  },
+  "sela_relieved": {
+    "prompt": "Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore. Edit same Sela full-body: upright bright attentive RELIEVED expression, relaxed mouth, little smile. Preserve spectacles, indigo cloak, copper bell clasp, satchel, face identity, shoes, proportions and lighting. No new objects. Isolated on genuine transparent background, clean edges with NO halo, NO backdrop or haze. One separate usable sprite.",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "assets-source/images/sela_worried.png"
+    ],
+    "source": "assets-source/images/sela_relieved.png",
+    "originalToolPath": "/workspace/generated_images/exec-c5ae85e8-6ca9-452f-b14d-fab5e845b3fe.png",
+    "status": "accepted"
+  },
+  "nell_relieved": {
+    "prompt": "Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore. Edit same Nell full-body: thoughtful warmth, subtle relieved smile, ledger held less tightly. Same cropped hair, plum coat, long cream scarf, satchel, closed ledger, exact face identity, full shoes and body scale. Isolated on genuine transparent background, clean edges with NO halo, NO backdrop or haze. One separate usable sprite.",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "assets-source/images/nell_worried.png"
+    ],
+    "source": "assets-source/images/nell_relieved.png",
+    "originalToolPath": "/workspace/generated_images/exec-12eed0d3-ab17-4ae7-b8a8-be77933824bb.png",
+    "status": "accepted"
+  },
+  "prop_bell": {
+    "prompt": "Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore. A SINGLE hanging brass ritual bell, weathered warm ochre metal, short rope segment above and below, dark clapper. No hands, support beam or scenery. Frontal slight three-quarter view, top rope attachment, full silhouette, generous margin, portrait sprite. Isolated on genuine transparent background, clean edges with NO halo, NO backdrop or haze. One separate usable sprite.",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "assets-source/images/chain.png",
+      "assets-source/images/bg_shrine.png"
+    ],
+    "source": "assets-source/images/prop_bell.png",
+    "originalToolPath": "/workspace/generated_images/exec-b641fe2f-a9cb-475e-892c-be8960381ce7.png",
+    "status": "accepted"
+  }
+}

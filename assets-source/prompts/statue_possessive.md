@@ -1,0 +1,4 @@
+Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore.  Actual transparent alpha outside the silhouette. NO backdrop, vignette, glow cloud or halo around isolated objects. Exactly one usable asset, no grids. Edit master statue into Possessive form. Same identity, forehead sun, mouth placement, viewpoint, warm stone, body and base. Long stone fingers curl INWARD protectively at edges, anxious narrow vigilant eyes, roots gripping base, taut rust cloth. Ominous affection not rage. Comparable silhouette, full base and figure.
+
+References:
+assets-source/images/statue_listening.png

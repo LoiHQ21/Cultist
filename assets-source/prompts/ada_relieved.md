@@ -1,0 +1,4 @@
+Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore. Edit the supplied full-body character into a relieved expression variant. Preserve exactly character identity, clothing, proportions, body and pose scale, lighting and viewpoint. Proud restrained relieved smile, cradle same basket of roots. Same rust shawl silver braid clothes. Entire full body and shoes visible with margin. Isolate on genuine transparent background with clean edges, no backdrop or outside haze. No new equipment or scenery.
+
+References:
+assets-source/images/ada_worried.png

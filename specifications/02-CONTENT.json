@@ -1,0 +1,793 @@
+{
+  "content_version": "1.0.0",
+  "title": "The Last Offering",
+  "rules": {
+    "days": 5,
+    "stat_min": 0,
+    "stat_max": 8,
+    "starting_trust": 4,
+    "starting_defence": 1,
+    "inventory_capacity": 5,
+    "starting_inventory": ["ring", "bell"],
+    "ignored_trust_cost": 1,
+    "learning_threshold": 2,
+    "defence_to_survive": 6,
+    "trust_for_intact_community": 4,
+    "first_run_seed": "FIRST-EMBER",
+    "replay_gift_pool": ["ring", "bell", "mirror"],
+    "openings": {
+      "listening": {"label": "Listening", "mercy": 0, "dominion": 0},
+      "gentle": {"label": "Gentle", "mercy": 1, "dominion": 0},
+      "watchful": {"label": "Watchful", "mercy": 0, "dominion": 1}
+    }
+  },
+  "aspects": {
+    "listening": {
+      "label": "Listening",
+      "defence": 0,
+      "trust": 0,
+      "description": "It waits to learn what protection means.",
+      "arrival": "Something behind the stone is listening."
+    },
+    "merciful": {
+      "label": "Merciful",
+      "defence": -1,
+      "trust": 1,
+      "description": "It helps without distinction. Rituals gain 1 Trust and lose 1 Defence.",
+      "arrival": "Flowers open where its tears should be. It wants everyone to be safe."
+    },
+    "possessive": {
+      "label": "Possessive",
+      "defence": 1,
+      "trust": -1,
+      "description": "It protects through control. Rituals gain 1 Defence and lose 1 Trust.",
+      "arrival": "Its fingers curl around the altar. It has learned to call you its own."
+    }
+  },
+  "votives": {
+    "chain": {
+      "name": "Chain",
+      "method": "bind",
+      "meaning": "Hold together. Restrain. Keep.",
+      "lesson": {"mercy": 0, "dominion": 1},
+      "description": "Binding teaches Dominion. The village leaves a fresh votive each dawn."
+    },
+    "seed": {
+      "name": "Seed",
+      "method": "grow",
+      "meaning": "Grow. Restore. Multiply.",
+      "lesson": {"mercy": 1, "dominion": 0},
+      "description": "Growth teaches Mercy. The village leaves a fresh votive each dawn."
+    },
+    "knife": {
+      "name": "Knife",
+      "method": "sever",
+      "meaning": "Separate. Remove. Cut away.",
+      "lesson": {"mercy": 0, "dominion": 1},
+      "description": "Separation teaches Dominion. The village leaves a fresh votive each dawn."
+    }
+  },
+  "items": {
+    "ring": {
+      "name": "Wedding Ring",
+      "kind": "catalyst",
+      "defence": 0,
+      "trust": 1,
+      "lesson": {"mercy": 1, "dominion": 0},
+      "special": null,
+      "description": "+1 Trust. Teaches 1 Mercy.",
+      "flavor": "A promise small enough to swallow.",
+      "ritual_line": "It treats the ring as a promise to those who must live with the miracle."
+    },
+    "bell": {
+      "name": "Little Bell",
+      "kind": "catalyst",
+      "defence": 1,
+      "trust": 0,
+      "lesson": {"mercy": 0, "dominion": 1},
+      "special": null,
+      "description": "+1 Defence. Teaches 1 Dominion.",
+      "flavor": "A voice that expects an answer.",
+      "ritual_line": "The miracle arrives with the certainty of an order."
+    },
+    "mirror": {
+      "name": "Hand Mirror",
+      "kind": "catalyst",
+      "defence": 0,
+      "trust": 0,
+      "lesson": {"mercy": 0, "dominion": 0},
+      "special": "repeat_base_and_votive_lesson",
+      "description": "Repeat the base miracle's changes and the votive's lesson once. Negative changes repeat too.",
+      "flavor": "It has never understood why there are two of you.",
+      "ritual_line": "It sees the gift twice, and answers with twice the conviction."
+    },
+    "biting_grain": {
+      "name": "Biting Grain",
+      "kind": "remnant",
+      "defence": 2,
+      "trust": -1,
+      "lesson": {"mercy": 0, "dominion": 1},
+      "special": null,
+      "description": "+2 Defence, -1 Trust. Teaches 1 Dominion.",
+      "flavor": "The harvest has learned to defend itself.",
+      "ritual_line": "Something in the new miracle remembers having teeth."
+    },
+    "guardian_tear": {
+      "name": "Guardian's Tear",
+      "kind": "remnant",
+      "defence": 1,
+      "trust": 1,
+      "lesson": {"mercy": 1, "dominion": 0},
+      "special": null,
+      "description": "+1 Defence, +1 Trust. Teaches 1 Mercy.",
+      "flavor": "Even stone can worry about someone.",
+      "ritual_line": "The tear teaches it to notice the people inside its protection."
+    },
+    "loose_shadow": {
+      "name": "Loose Shadow",
+      "kind": "remnant",
+      "defence": 1,
+      "trust": 0,
+      "lesson": {"mercy": 0, "dominion": 1},
+      "special": "prevent_negative_ritual_trust",
+      "description": "+1 Defence. Prevent this ritual's negative Trust change. Unanswered prayers still cost Trust. Teaches 1 Dominion.",
+      "flavor": "Something that can take the blame without casting a face.",
+      "ritual_line": "A shadow carries away the part of the miracle people would have feared."
+    },
+    "forgotten_name": {
+      "name": "Forgotten Name",
+      "kind": "remnant",
+      "defence": 0,
+      "trust": 2,
+      "lesson": {"mercy": 1, "dominion": 0},
+      "special": null,
+      "description": "+2 Trust. Teaches 1 Mercy.",
+      "flavor": "The warmth of being remembered, caught on a scrap of paper.",
+      "ritual_line": "For a moment, it remembers that a village is made of individual lives."
+    }
+  },
+  "visitors": {
+    "mara": {
+      "name": "Mara",
+      "role": "Baker",
+      "appearance": "Broad silhouette, ochre apron, rolled sleeves, flour on one cheek, dark tied-back hair.",
+      "greeting": "I brought what I could spare.",
+      "callback_helped": "The ovens are working again. The bread is a little strange.",
+      "callback_ignored": "I have been stretching the last sack of flour. It will not stretch forever."
+    },
+    "ivo": {
+      "name": "Ivo",
+      "role": "Ferryman",
+      "appearance": "Tall and narrow, moss-green coat, knit cap, weathered face, short wooden oar charm.",
+      "greeting": "The river has been keeping things lately.",
+      "callback_helped": "We have a ferry again. I am choosing not to ask too many questions.",
+      "callback_ignored": "We have been crossing on barrels. I do not recommend it."
+    },
+    "ada": {
+      "name": "Ada",
+      "role": "Gardener",
+      "appearance": "Short sturdy elder, rust shawl, silver braid, basket of roots, practical boots.",
+      "greeting": "I know what a healthy tree sounds like. These are whispering.",
+      "callback_helped": "The roots are drinking again.",
+      "callback_ignored": "The orchard is quieter now. That is not good."
+    },
+    "sela": {
+      "name": "Sela",
+      "role": "Bellkeeper",
+      "appearance": "Young adult, indigo cloak, round spectacles, copper bell clasp, alert posture.",
+      "greeting": "You should be able to hear me from the tower. Nobody can.",
+      "callback_helped": "The tower has found its voice.",
+      "callback_ignored": "I have been shouting from the roof."
+    },
+    "bram": {
+      "name": "Bram",
+      "role": "Mason",
+      "appearance": "Square shoulders, faded brick-red vest, bushy grey brows, stone-dust hands, tool belt.",
+      "greeting": "I can mend stone. I cannot make more days.",
+      "callback_helped": "The wall is holding. People have started leaning on it again.",
+      "callback_ignored": "We have put wagons in the gap. They look braver from a distance."
+    },
+    "nell": {
+      "name": "Nell",
+      "role": "Archivist",
+      "appearance": "Middle-aged, long cream scarf, plum coat, cropped dark hair, small ledger held to chest.",
+      "greeting": "I have a question that does not fit in the ledger.",
+      "callback_helped": "People are saying one another's names again.",
+      "callback_ignored": "I keep writing names down. Some disappear before the ink dries."
+    }
+  },
+  "petitions": [
+    {
+      "id": "granary",
+      "day": 1,
+      "visitor": "mara",
+      "title": "The Empty Granary",
+      "summary": "The grain is vanishing before it reaches the ovens.",
+      "request": "Please protect our harvest. We cannot feed the village on prayers alone.",
+      "gift": "ring",
+      "ignored": "Mara waters the soup until it nearly forgets it was soup.",
+      "outcomes": {
+        "chain": {
+          "title": "The Patient Guardian",
+          "omen": "A watchful thing will keep the grain.",
+          "defence": 1, "trust": 0, "reward": "guardian_tear",
+          "scene": "guardian",
+          "event": "A small stone hound settles beside the granary. Every mouse turns back.",
+          "interpretations": {
+            "listening": "It checks each flour sack before letting it leave. Mara learns to wait.",
+            "merciful": "It lets hungry families through as well. A tear forms when someone says thank you.",
+            "possessive": "It bars the bakers too. Apparently the safest bread is bread nobody can touch."
+          },
+          "echo": "The stone hound still counts the sacks."
+        },
+        "seed": {
+          "title": "A Harvest With Teeth",
+          "omen": "The grain will learn to fend for itself.",
+          "defence": 0, "trust": 2, "reward": "biting_grain",
+          "scene": "grain",
+          "event": "New wheat fills the bins. Tiny teeth click inside the husks.",
+          "interpretations": {
+            "listening": "It only bites when startled. Mara promises to knock before grinding it.",
+            "merciful": "The wheat feeds every visitor, including the mice. It has enough for everyone.",
+            "possessive": "It snaps at unfamiliar hands. The grain recognizes who belongs to the village."
+          },
+          "echo": "Something in Mara's bread basket is softly chewing."
+        },
+        "knife": {
+          "title": "Cut Out the Hunger",
+          "omen": "It will cut the thief away from the theft.",
+          "defence": 2, "trust": -1, "reward": "loose_shadow",
+          "scene": "shadow",
+          "event": "The thieves' shadows detach and stand watch around the fields.",
+          "interpretations": {
+            "listening": "The shadows are obedient. Their owners are considerably less comfortable.",
+            "merciful": "It cuts away the hunger too. The thieves share what remains of their food.",
+            "possessive": "The shadows report every hand that reaches for a sack, including Mara's."
+          },
+          "echo": "A shadow keeps watch without anyone standing beside it."
+        }
+      }
+    },
+    {
+      "id": "ferry",
+      "day": 1,
+      "visitor": "ivo",
+      "title": "The Missing Ferry",
+      "summary": "The river took the boat, leaving families on opposite banks.",
+      "request": "Bring our people back together. The river can keep my boots.",
+      "gift": "bell",
+      "ignored": "Families wave across the river until darkness makes everyone look the same.",
+      "outcomes": {
+        "chain": {
+          "title": "A River Held Still",
+          "omen": "The banks will remember how to hold hands.",
+          "defence": 1, "trust": 1, "reward": "guardian_tear",
+          "scene": "guardian",
+          "event": "Stone hands rise from the water and hold a crossing steady.",
+          "interpretations": {
+            "listening": "The hands wait patiently for each passenger to step off.",
+            "merciful": "They carry the tired as well as their luggage, leaving less strength for the current.",
+            "possessive": "Every passenger must promise to return. The river is listening."
+          },
+          "echo": "The new crossing has very careful fingers."
+        },
+        "seed": {
+          "title": "The Boat Orchard",
+          "omen": "Something living will carry them home.",
+          "defence": 0, "trust": 1, "reward": "biting_grain",
+          "scene": "grain",
+          "event": "Hollow gourds grow along the river, each large enough for a family.",
+          "interpretations": {
+            "listening": "Ivo harvests boats and asks the passengers not to eat the seats.",
+            "merciful": "The gourds soften into comfortable cradles. They drift wherever someone needs help.",
+            "possessive": "The boats grow tendrils around their passengers until the home bank is reached."
+          },
+          "echo": "Ivo has begun watering his fleet."
+        },
+        "knife": {
+          "title": "A Path Through Water",
+          "omen": "It will separate the river from its bed.",
+          "defence": 2, "trust": -1, "reward": "loose_shadow",
+          "scene": "shadow",
+          "event": "The river parts, leaving a dry road between two walls of water.",
+          "interpretations": {
+            "listening": "People cross quickly. Fish watch at eye level.",
+            "merciful": "It leaves small channels for the fish, though the crossing becomes slower.",
+            "possessive": "The water closes behind each family. Crossing back will require permission."
+          },
+          "echo": "The river's shadow remains where the water used to be."
+        }
+      }
+    },
+    {
+      "id": "orchard",
+      "day": 2,
+      "visitor": "ada",
+      "title": "The Root-Sick Orchard",
+      "summary": "A black blight is spreading beneath the fruit trees.",
+      "request": "Save the orchard. My mother planted those trees.",
+      "gift": "mirror",
+      "ignored": "Ada marks another tree with a strip of mourning cloth.",
+      "outcomes": {
+        "chain": {
+          "title": "A Ring Around the Rot",
+          "omen": "The sickness will have a boundary.",
+          "defence": 1, "trust": 0, "reward": "guardian_tear",
+          "scene": "guardian",
+          "event": "A ring of stone closes around the infected roots.",
+          "interpretations": {
+            "listening": "The blight stops at the ring. Ada leaves a watering can beside it.",
+            "merciful": "It shelters the sick trees instead of crushing them. Some fruit survives.",
+            "possessive": "No root may cross the boundary. Ada is told not to dig."
+          },
+          "echo": "The orchard's stone ring is warm in the morning."
+        },
+        "seed": {
+          "title": "The Hungry Roots",
+          "omen": "New life will eat what troubles the old.",
+          "defence": 0, "trust": 2, "reward": "biting_grain",
+          "scene": "grain",
+          "event": "Pale roots grow through the orchard and chew the blight away.",
+          "interpretations": {
+            "listening": "The trees recover. Ada keeps her fingers out of the soil.",
+            "merciful": "The new roots nurse the weakest trees first, even those that cannot bear fruit.",
+            "possessive": "The roots knot around every tree. Nothing may leave the orchard now."
+          },
+          "echo": "Ada says the soil has developed an appetite."
+        },
+        "knife": {
+          "title": "The Blight's Shadow",
+          "omen": "It will cut the sickness free.",
+          "defence": 2, "trust": -1, "reward": "loose_shadow",
+          "scene": "shadow",
+          "event": "The blight peels off the roots as a long black ribbon.",
+          "interpretations": {
+            "listening": "The orchard lives. Ada does not want to know where the ribbon is going.",
+            "merciful": "It removes only what hurts, leaving the oldest tree's crooked roots intact.",
+            "possessive": "It removes every root that ever touched the blight, healthy or otherwise."
+          },
+          "echo": "A black ribbon curls beneath the altar."
+        }
+      }
+    },
+    {
+      "id": "silent_bell",
+      "day": 2,
+      "visitor": "sela",
+      "title": "A Bell Nobody Hears",
+      "summary": "The warning bell swings, but its sound never reaches the village.",
+      "request": "Let them hear me before there is something to run from.",
+      "gift": "ring",
+      "ignored": "Sela spends the afternoon teaching warning signals with a bedsheet.",
+      "outcomes": {
+        "chain": {
+          "title": "A Thread of Warning",
+          "omen": "Every door will be tied to the tower.",
+          "defence": 2, "trust": 0, "reward": "guardian_tear",
+          "scene": "guardian",
+          "event": "A fine stone thread connects the bell to every doorframe.",
+          "interpretations": {
+            "listening": "When Sela rings, the houses tremble politely.",
+            "merciful": "The warning touches sleeping shoulders gently. Nobody wakes alone.",
+            "possessive": "Every door locks when the warning rings. Sela is asked to stop practicing."
+          },
+          "echo": "The houses hum when the bellkeeper clears her throat."
+        },
+        "seed": {
+          "title": "The Calling Flowers",
+          "omen": "The warning will grow mouths of its own.",
+          "defence": 1, "trust": 1, "reward": "biting_grain",
+          "scene": "grain",
+          "event": "Bell-shaped flowers appear on every windowsill and echo the tower.",
+          "interpretations": {
+            "listening": "They also echo Sela's cough. She is working on that.",
+            "merciful": "The flowers learn everyone's name and make sure each person answers.",
+            "possessive": "They report anyone who ignores them. Quietly closing a window no longer works."
+          },
+          "echo": "The flowers are rehearsing the warning."
+        },
+        "knife": {
+          "title": "Cut Away the Silence",
+          "omen": "Silence will be peeled from the bell.",
+          "defence": 2, "trust": -1, "reward": "loose_shadow",
+          "scene": "shadow",
+          "event": "A dark skin falls from the bell. Its voice returns across the valley.",
+          "interpretations": {
+            "listening": "The villagers hear it. So does everything in the woods.",
+            "merciful": "Its voice reaches the hard of hearing without hurting anyone's ears.",
+            "possessive": "It rings until every villager has answered by name."
+          },
+          "echo": "Folded silence rests beneath the bell rope."
+        }
+      }
+    },
+    {
+      "id": "wall",
+      "day": 3,
+      "visitor": "bram",
+      "title": "The Broken Wall",
+      "summary": "The northern wall has fallen where the army will approach.",
+      "request": "Hold the stones together. I will do the rest.",
+      "gift": "bell",
+      "ignored": "Bram parks carts in the gap and hopes the army is nearsighted.",
+      "outcomes": {
+        "chain": {
+          "title": "Hands in the Mortar",
+          "omen": "The wall will learn to hold itself.",
+          "defence": 2, "trust": 0, "reward": "guardian_tear",
+          "scene": "guardian",
+          "event": "Small stone hands clasp between the broken blocks.",
+          "interpretations": {
+            "listening": "Bram gives each hand a grateful pat.",
+            "merciful": "The wall leaves little doors for stray animals. Bram makes a note to discuss this.",
+            "possessive": "The hands catch anyone who tries to climb either side."
+          },
+          "echo": "The northern wall is holding hands."
+        },
+        "seed": {
+          "title": "The Thorn Rampart",
+          "omen": "A living wall will fill the gap.",
+          "defence": 1, "trust": 1, "reward": "biting_grain",
+          "scene": "grain",
+          "event": "Thick thorn bushes grow through the breach and bear tiny, toothy fruit.",
+          "interpretations": {
+            "listening": "Bram calls it a wall with maintenance needs.",
+            "merciful": "The branches bend for the injured. The fruit is unexpectedly nourishing.",
+            "possessive": "The thorns reach inward as well as outward. Nobody should wander."
+          },
+          "echo": "Bram has added pruning shears to his tool belt."
+        },
+        "knife": {
+          "title": "An Absence Around Us",
+          "omen": "It will cut a gap the enemy cannot cross.",
+          "defence": 3, "trust": -2, "reward": "loose_shadow",
+          "scene": "shadow",
+          "event": "A deep black ditch appears where the wall once stood.",
+          "interpretations": {
+            "listening": "A thrown stone makes no sound at the bottom.",
+            "merciful": "It leaves a narrow path for those who cannot climb. Bram guards that path.",
+            "possessive": "The ditch follows the village boundary perfectly, including the roads out."
+          },
+          "echo": "Even birds avoid the new ditch."
+        }
+      }
+    },
+    {
+      "id": "forgotten",
+      "day": 3,
+      "visitor": "nell",
+      "title": "Names for the Forgotten",
+      "summary": "Exhausted families have begun forgetting the names of their dead.",
+      "request": "Let us remember who we are protecting.",
+      "gift": "mirror",
+      "ignored": "Nell leaves blank spaces in the ledger where names should be.",
+      "outcomes": {
+        "chain": {
+          "title": "Knots of Memory",
+          "omen": "A name will hold each person to another.",
+          "defence": 0, "trust": 2, "reward": "forgotten_name",
+          "scene": "names",
+          "event": "Soft threads connect the villagers' wrists to names in Nell's ledger.",
+          "interpretations": {
+            "listening": "People follow the threads and begin telling stories.",
+            "merciful": "Even those nobody remembers receive a thread.",
+            "possessive": "The threads tighten whenever someone tries to leave the gathering."
+          },
+          "echo": "Nell's ledger rustles with voices."
+        },
+        "seed": {
+          "title": "The Name Garden",
+          "omen": "Memory will take root.",
+          "defence": 0, "trust": 3, "reward": "forgotten_name",
+          "scene": "names",
+          "event": "Small flowers bloom with familiar names marked along their petals.",
+          "interpretations": {
+            "listening": "Everyone finds someone. Nobody agrees on how to water them.",
+            "merciful": "The flowers include strangers whose families are far away.",
+            "possessive": "The flowers turn toward anyone who tries to forget."
+          },
+          "echo": "A flower beside the shrine bears a name nobody has spoken in years."
+        },
+        "knife": {
+          "title": "A Cut Through Grief",
+          "omen": "It will separate the memory from the pain.",
+          "defence": 1, "trust": 0, "reward": "loose_shadow",
+          "scene": "shadow",
+          "event": "Grief falls from the villagers like long evening shadows.",
+          "interpretations": {
+            "listening": "They remember the names. Some wonder what else has been taken away.",
+            "merciful": "It leaves enough sadness for each memory to remain precious.",
+            "possessive": "It removes every memory that might distract them from the coming defence."
+          },
+          "echo": "A shadow sits beside the ledger, patiently mourning."
+        }
+      }
+    },
+    {
+      "id": "refugees",
+      "day": 4,
+      "visitor": "mara",
+      "title": "Refugees at the Gate",
+      "summary": "Families from the next village have arrived without food or shelter.",
+      "request": "Give them somewhere safe. They have already lost one home.",
+      "gift": "ring",
+      "ignored": "Mara leaves bread outside the gate. By morning the basket is empty.",
+      "outcomes": {
+        "chain": {
+          "title": "A Roof of Joined Hands",
+          "omen": "A shelter will hold them close.",
+          "defence": 1, "trust": 1, "reward": "guardian_tear",
+          "scene": "guardian",
+          "event": "Stone fingers arch into a shelter beside the village square.",
+          "interpretations": {
+            "listening": "The roof is dry. The occasional knuckle crack takes getting used to.",
+            "merciful": "It opens room for every late arrival, even when the stone grows thin.",
+            "possessive": "The fingers close at night. Safety has a curfew."
+          },
+          "echo": "Smoke curls between the knuckles of the new shelter."
+        },
+        "seed": {
+          "title": "A Table That Grows",
+          "omen": "There will be enough to share.",
+          "defence": 0, "trust": 3, "reward": "biting_grain",
+          "scene": "grain",
+          "event": "A long table sprouts from the square, growing bread along its branches.",
+          "interpretations": {
+            "listening": "Children pick the smallest loaves first.",
+            "merciful": "It sets places even for people still on the road.",
+            "possessive": "Roots curl around the chairs. The feast wants its guests to stay."
+          },
+          "echo": "Mara is learning to prune a dining table."
+        },
+        "knife": {
+          "title": "Fear Left Outside",
+          "omen": "It will cut away what followed them.",
+          "defence": 2, "trust": -1, "reward": "loose_shadow",
+          "scene": "shadow",
+          "event": "The refugees' fear gathers outside the gate as a wall of dark silhouettes.",
+          "interpretations": {
+            "listening": "They can finally sleep. The night watch cannot.",
+            "merciful": "The silhouettes turn outward so the families do not have to see them.",
+            "possessive": "They take the shape of anyone who has ever threatened the village."
+          },
+          "echo": "Old fears are standing the night watch."
+        }
+      }
+    },
+    {
+      "id": "bridge",
+      "day": 4,
+      "visitor": "ivo",
+      "title": "The Last Bridge",
+      "summary": "The eastern bridge is failing, cutting off the last supply route.",
+      "request": "Keep the road open one more day. There are people still coming.",
+      "gift": "bell",
+      "ignored": "Ivo ties a warning cloth to the bridge and waits on the near bank.",
+      "outcomes": {
+        "chain": {
+          "title": "A Bridge That Clings",
+          "omen": "The broken pieces will refuse to part.",
+          "defence": 2, "trust": 0, "reward": "guardian_tear",
+          "scene": "guardian",
+          "event": "Stone clasps pull the broken span together.",
+          "interpretations": {
+            "listening": "Ivo tests every plank and nods for the carts to come.",
+            "merciful": "The bridge lowers itself for those too tired to climb the bank.",
+            "possessive": "It grips the wheels of every cart that tries to travel away."
+          },
+          "echo": "The bridge is reluctant to let go of passing wheels."
+        },
+        "seed": {
+          "title": "The Root Road",
+          "omen": "A new way will grow across.",
+          "defence": 1, "trust": 1, "reward": "biting_grain",
+          "scene": "grain",
+          "event": "Roots braid across the river into a living road.",
+          "interpretations": {
+            "listening": "It is springy underfoot and smells of rain.",
+            "merciful": "Small side paths grow wherever someone calls for help.",
+            "possessive": "The road grows only toward the village. The far end follows the last traveler."
+          },
+          "echo": "New roots are searching for travelers."
+        },
+        "knife": {
+          "title": "The Shortened Crossing",
+          "omen": "It will remove the distance between the banks.",
+          "defence": 3, "trust": -2, "reward": "loose_shadow",
+          "scene": "shadow",
+          "event": "A slice of river vanishes. The two banks meet with a deep, wet sound.",
+          "interpretations": {
+            "listening": "The carts pass. Ivo stares at where the river used to be.",
+            "merciful": "It leaves water beneath the crossing for the creatures that lived there.",
+            "possessive": "The river bends around the village like a second wall."
+          },
+          "echo": "The map and the river no longer agree."
+        }
+      }
+    },
+    {
+      "id": "watch",
+      "day": 5,
+      "visitor": "bram",
+      "title": "A Watch That Will Not Sleep",
+      "summary": "The defenders are exhausted before the army has even arrived.",
+      "request": "Let someone watch while they rest. Just tonight.",
+      "gift": "bell",
+      "ignored": "Bram walks the wall himself, counting footsteps to stay awake.",
+      "outcomes": {
+        "chain": {
+          "title": "The Wall Remembers",
+          "omen": "The village's stones will keep watch.",
+          "defence": 2, "trust": 0, "reward": "guardian_tear",
+          "scene": "guardian",
+          "event": "Eyes open between the wall's stones.",
+          "interpretations": {
+            "listening": "They watch the road without blinking. The guards sleep.",
+            "merciful": "They close whenever a frightened child looks back.",
+            "possessive": "Half the eyes turn inward. The god wants everyone accounted for."
+          },
+          "echo": "The wall has not blinked all night."
+        },
+        "seed": {
+          "title": "The Resting Orchard",
+          "omen": "Rest will grow where it is needed.",
+          "defence": 1, "trust": 2, "reward": "biting_grain",
+          "scene": "grain",
+          "event": "Soft flowering branches lower themselves into beds beside the wall.",
+          "interpretations": {
+            "listening": "The guards wake stronger, with pollen in their hair.",
+            "merciful": "The branches make room for every tired villager. Some duties must wait.",
+            "possessive": "The beds will release their sleepers only when the god thinks they are ready."
+          },
+          "echo": "The flowers are humming a marching song as a lullaby."
+        },
+        "knife": {
+          "title": "Separate Them From Sleep",
+          "omen": "It will cut exhaustion away.",
+          "defence": 3, "trust": -2, "reward": "loose_shadow",
+          "scene": "shadow",
+          "event": "The guards' tiredness falls to the ground in heavy black shapes.",
+          "interpretations": {
+            "listening": "They stand straighter. Their discarded weariness snores beside the gate.",
+            "merciful": "It takes only tonight's exhaustion and promises to return their dreams.",
+            "possessive": "The guards no longer know how to close their eyes."
+          },
+          "echo": "Something beneath the gate is sleeping for everyone else."
+        }
+      }
+    },
+    {
+      "id": "tomorrow",
+      "day": 5,
+      "visitor": "nell",
+      "title": "Tomorrow's Names",
+      "summary": "Nell wants every villager to remember whom they are trying to save.",
+      "request": "If there is a tomorrow, let us still know one another.",
+      "gift": "mirror",
+      "ignored": "Nell leaves the final page of the ledger unfinished.",
+      "outcomes": {
+        "chain": {
+          "title": "A Promise Between Doors",
+          "omen": "No one will be left without someone waiting.",
+          "defence": 1, "trust": 1, "reward": "forgotten_name",
+          "scene": "names",
+          "event": "Thin bright threads connect each front door to another.",
+          "interpretations": {
+            "listening": "Neighbors agree to check on one another at dawn.",
+            "merciful": "Empty houses receive threads too. Someone may yet come home.",
+            "possessive": "The threads tug whenever a household tries to slip away."
+          },
+          "echo": "The village glows with small promises."
+        },
+        "seed": {
+          "title": "Names for the Morning",
+          "omen": "The village will remember itself.",
+          "defence": 0, "trust": 3, "reward": "forgotten_name",
+          "scene": "names",
+          "event": "Names bloom on the trees around the square.",
+          "interpretations": {
+            "listening": "People search the branches and call to one another.",
+            "merciful": "New buds wait for the names of people who have not arrived yet.",
+            "possessive": "The names stay lit until every person has reported home."
+          },
+          "echo": "Nell closes her ledger. For once, the trees can keep the record."
+        },
+        "knife": {
+          "title": "Cut Away the Dread",
+          "omen": "Tomorrow's fear will be given a shape.",
+          "defence": 2, "trust": -1, "reward": "loose_shadow",
+          "scene": "shadow",
+          "event": "The village's dread becomes a dark figure standing beyond the gate.",
+          "interpretations": {
+            "listening": "The people breathe again. The figure faces the road.",
+            "merciful": "It carries everyone's fear carefully, as if it might break.",
+            "possessive": "It learns the shape of the approaching army before the army appears."
+          },
+          "echo": "Tomorrow's fear has gone outside to meet itself."
+        }
+      }
+    }
+  ],
+  "finale": {
+    "intro": "At dawn, the statue stands. Beyond the hill, the army's banners catch the light.",
+    "response": [
+      {"id": "strike", "label": "Strike the banners", "defence": 2, "trust": -1, "text": "The god turns its attention toward the road. Even the banners hesitate."},
+      {"id": "shelter", "label": "Shelter our people", "defence": -1, "trust": 2, "text": "Its shadow falls over the village like a roof."},
+      {"id": "stand", "label": "Stand at our gate", "defence": 1, "trust": 0, "text": "It plants itself between the village and the approaching line."}
+    ],
+    "interpretations": {
+      "listening": {
+        "text": "It looks down at you. The army is moving. It still needs to know what safety means.",
+        "choices": [
+          {"id": "freedom", "label": "Let our people choose", "defence": 0, "trust": 1, "text": "It opens a path behind the village. Nobody is forced to stay."},
+          {"id": "fortify", "label": "Strengthen our walls", "defence": 1, "trust": 0, "text": "It kneels and presses its hands against the stone."}
+        ]
+      },
+      "merciful": {
+        "text": "It sees tired people beneath the enemy helmets and begins to shelter them too.",
+        "choices": [
+          {"id": "receive", "label": "There is room for them", "defence": -1, "trust": 2, "text": "Villagers put down their tools and carry water to the road."},
+          {"id": "boundary", "label": "Keep a boundary", "defence": 1, "trust": -1, "text": "It draws a line with one enormous finger. It does not understand why kindness needs an edge."}
+        ]
+      },
+      "possessive": {
+        "text": "Its hands close around the village. The army cannot enter. The villagers cannot leave.",
+        "choices": [
+          {"id": "open", "label": "Open the gates", "defence": -1, "trust": 2, "text": "Slowly, reluctantly, it makes room between its fingers."},
+          {"id": "seal", "label": "Keep them sealed", "defence": 2, "trust": -1, "text": "The stone grows seamless. The village has never been so safe, or so quiet."}
+        ]
+      }
+    },
+    "fates": [
+      {"id": "sleep", "label": "Let it sleep", "defence": -2, "trust": 1, "text": "Ask it to spend its strength and return to stone."},
+      {"id": "remain", "label": "Ask it to remain", "defence": 1, "trust": -1, "text": "Keep its protection and live with the god you taught."},
+      {"id": "wander", "label": "Let it wander", "defence": -1, "trust": 0, "text": "Release it into the world. The village will stand on its own."}
+    ]
+  },
+  "endings": {
+    "abandoned": {
+      "title": "An Empty Sanctuary",
+      "text": "The shrine survives. The people no longer call it home. The gifts on the altar outlast the people who brought them.",
+      "art": "ending_desolate"
+    },
+    "overrun": {
+      "title": "The Banners Enter",
+      "text": "The god's answer is not strong enough to hold the road. The army enters. Those who remain carry the story of what you tried to save.",
+      "art": "ending_desolate"
+    },
+    "fractured": {
+      "title": "A Village Divided",
+      "text": "The army turns away, but the village cannot agree on what protection has cost. Some remain beneath the shrine. Others leave before the next prayer.",
+      "art": "ending_desolate"
+    },
+    "quiet": {
+      "title": "A Quiet Dawn",
+      "text": "The army retreats. The god spends the last of its strength and settles back into stone. For the first time in days, the morning belongs to ordinary people.",
+      "art": "ending_quiet"
+    },
+    "guarded": {
+      "title": "Under Its Hands",
+      "text": "The army will not return soon. Your god stays, and the village begins the work of living beside a miracle.",
+      "art": "ending_guarded",
+      "aspect_coda": {
+        "listening": "It still turns to you whenever someone asks for help.",
+        "merciful": "Every stranger finds a place here. The village is learning how much kindness can hold.",
+        "possessive": "The gates are watched carefully. Every year, the villagers negotiate a little more room."
+      }
+    },
+    "free": {
+      "title": "Beyond the Hill",
+      "text": "The army turns away. Your god walks into the distance, carrying the lessons you gave it. The village opens its gates and begins again.",
+      "art": "ending_quiet"
+    }
+  },
+  "tutorial": [
+    {"id": "petition", "phase": "petitions", "text": "Two prayers, one ritual. Hear either visitor. The other prayer will cost 1 Trust."},
+    {"id": "votive", "phase": "prepare", "text": "Choose how the miracle works: bind, grow, or separate. These votives return each dawn."},
+    {"id": "catalyst", "phase": "prepare", "text": "A second offering changes the result and teaches another lesson. It will be consumed."},
+    {"id": "preview", "phase": "prepare", "text": "Read the omen and the final numbers. The god answers with today's aspect; new lessons affect tomorrow."},
+    {"id": "remnant", "phase": "aftermath", "text": "A miracle has left something behind. Keep it, and it can become another offering."},
+    {"id": "aspect", "phase": "aftermath", "text": "A lesson has become an instinct. Inspect the god to see how it will answer next time."},
+    {"id": "finale", "phase": "finale_response", "text": "After three final decisions, you need 6 Defence to stop the army and 4 Trust to keep the community whole."}
+  ]
+}

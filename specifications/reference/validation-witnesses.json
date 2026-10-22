@@ -1,0 +1,785 @@
+{
+  "scope": "Specification/reference-model validation only; no browser implementation exists in this package.",
+  "content_version": "1.0.0",
+  "recipe_aspect_catalyst_cases": 720,
+  "sampled_legal_five_day_routes": 3,
+  "distinct_successful_votive_sequences_seen": 3,
+  "endings_reached": [
+    "abandoned",
+    "fractured",
+    "free",
+    "guarded",
+    "overrun",
+    "quiet"
+  ],
+  "witnesses": {
+    "overrun": {
+      "seed": "FIRST-EMBER",
+      "opening": "listening",
+      "guided": true,
+      "days": [
+        {
+          "day": 1,
+          "petition": "granary",
+          "votive": "knife",
+          "catalyst": "bell",
+          "discarded": [],
+          "after": {
+            "defence": 4,
+            "trust": 2,
+            "mercy": 0,
+            "dominion": 2,
+            "aspect": "possessive"
+          }
+        },
+        {
+          "day": 2,
+          "petition": "silent_bell",
+          "votive": "seed",
+          "catalyst": "loose_shadow",
+          "discarded": [],
+          "after": {
+            "defence": 7,
+            "trust": 1,
+            "mercy": 1,
+            "dominion": 3,
+            "aspect": "possessive"
+          }
+        },
+        {
+          "day": 3,
+          "petition": "wall",
+          "votive": "chain",
+          "catalyst": "bell",
+          "discarded": [],
+          "after": {
+            "defence": 8,
+            "trust": 0,
+            "mercy": 1,
+            "dominion": 5,
+            "aspect": "possessive"
+          }
+        },
+        {
+          "day": 4,
+          "petition": "refugees",
+          "votive": "chain",
+          "catalyst": null,
+          "discarded": [
+            "guardian_tear",
+            "ring"
+          ],
+          "after": {
+            "defence": 8,
+            "trust": 0,
+            "mercy": 1,
+            "dominion": 6,
+            "aspect": "possessive"
+          }
+        },
+        {
+          "day": 5,
+          "petition": "tomorrow",
+          "votive": "seed",
+          "catalyst": "ring",
+          "discarded": [
+            "ring"
+          ],
+          "after": {
+            "defence": 8,
+            "trust": 2,
+            "mercy": 3,
+            "dominion": 6,
+            "aspect": "possessive"
+          }
+        }
+      ],
+      "finale": {
+        "response": "strike",
+        "catalyst": null,
+        "interpretation": "open",
+        "fate": "sleep"
+      },
+      "final": {
+        "defence": 5,
+        "trust": 3,
+        "mercy": 3,
+        "dominion": 6,
+        "aspect": "possessive"
+      },
+      "ending": "overrun"
+    },
+    "fractured": {
+      "seed": "FIRST-EMBER",
+      "opening": "listening",
+      "guided": true,
+      "days": [
+        {
+          "day": 1,
+          "petition": "granary",
+          "votive": "knife",
+          "catalyst": "bell",
+          "discarded": [],
+          "after": {
+            "defence": 4,
+            "trust": 2,
+            "mercy": 0,
+            "dominion": 2,
+            "aspect": "possessive"
+          }
+        },
+        {
+          "day": 2,
+          "petition": "silent_bell",
+          "votive": "seed",
+          "catalyst": "loose_shadow",
+          "discarded": [],
+          "after": {
+            "defence": 7,
+            "trust": 1,
+            "mercy": 1,
+            "dominion": 3,
+            "aspect": "possessive"
+          }
+        },
+        {
+          "day": 3,
+          "petition": "wall",
+          "votive": "chain",
+          "catalyst": "bell",
+          "discarded": [],
+          "after": {
+            "defence": 8,
+            "trust": 0,
+            "mercy": 1,
+            "dominion": 5,
+            "aspect": "possessive"
+          }
+        },
+        {
+          "day": 4,
+          "petition": "refugees",
+          "votive": "chain",
+          "catalyst": null,
+          "discarded": [
+            "guardian_tear",
+            "ring"
+          ],
+          "after": {
+            "defence": 8,
+            "trust": 0,
+            "mercy": 1,
+            "dominion": 6,
+            "aspect": "possessive"
+          }
+        },
+        {
+          "day": 5,
+          "petition": "tomorrow",
+          "votive": "seed",
+          "catalyst": "ring",
+          "discarded": [
+            "ring"
+          ],
+          "after": {
+            "defence": 8,
+            "trust": 2,
+            "mercy": 3,
+            "dominion": 6,
+            "aspect": "possessive"
+          }
+        }
+      ],
+      "finale": {
+        "response": "strike",
+        "catalyst": null,
+        "interpretation": "open",
+        "fate": "remain"
+      },
+      "final": {
+        "defence": 8,
+        "trust": 1,
+        "mercy": 3,
+        "dominion": 6,
+        "aspect": "possessive"
+      },
+      "ending": "fractured"
+    },
+    "abandoned": {
+      "seed": "FIRST-EMBER",
+      "opening": "listening",
+      "guided": true,
+      "days": [
+        {
+          "day": 1,
+          "petition": "granary",
+          "votive": "knife",
+          "catalyst": "bell",
+          "discarded": [],
+          "after": {
+            "defence": 4,
+            "trust": 2,
+            "mercy": 0,
+            "dominion": 2,
+            "aspect": "possessive"
+          }
+        },
+        {
+          "day": 2,
+          "petition": "silent_bell",
+          "votive": "seed",
+          "catalyst": "loose_shadow",
+          "discarded": [],
+          "after": {
+            "defence": 7,
+            "trust": 1,
+            "mercy": 1,
+            "dominion": 3,
+            "aspect": "possessive"
+          }
+        },
+        {
+          "day": 3,
+          "petition": "wall",
+          "votive": "chain",
+          "catalyst": "bell",
+          "discarded": [],
+          "after": {
+            "defence": 8,
+            "trust": 0,
+            "mercy": 1,
+            "dominion": 5,
+            "aspect": "possessive"
+          }
+        },
+        {
+          "day": 4,
+          "petition": "refugees",
+          "votive": "chain",
+          "catalyst": null,
+          "discarded": [
+            "guardian_tear",
+            "ring"
+          ],
+          "after": {
+            "defence": 8,
+            "trust": 0,
+            "mercy": 1,
+            "dominion": 6,
+            "aspect": "possessive"
+          }
+        },
+        {
+          "day": 5,
+          "petition": "tomorrow",
+          "votive": "seed",
+          "catalyst": "ring",
+          "discarded": [
+            "ring"
+          ],
+          "after": {
+            "defence": 8,
+            "trust": 2,
+            "mercy": 3,
+            "dominion": 6,
+            "aspect": "possessive"
+          }
+        }
+      ],
+      "finale": {
+        "response": "strike",
+        "catalyst": null,
+        "interpretation": "seal",
+        "fate": "remain"
+      },
+      "final": {
+        "defence": 8,
+        "trust": 0,
+        "mercy": 3,
+        "dominion": 6,
+        "aspect": "possessive"
+      },
+      "ending": "abandoned"
+    },
+    "free": {
+      "seed": "FIRST-EMBER",
+      "opening": "listening",
+      "guided": true,
+      "days": [
+        {
+          "day": 1,
+          "petition": "granary",
+          "votive": "knife",
+          "catalyst": "bell",
+          "discarded": [],
+          "after": {
+            "defence": 4,
+            "trust": 2,
+            "mercy": 0,
+            "dominion": 2,
+            "aspect": "possessive"
+          }
+        },
+        {
+          "day": 2,
+          "petition": "silent_bell",
+          "votive": "seed",
+          "catalyst": "loose_shadow",
+          "discarded": [],
+          "after": {
+            "defence": 7,
+            "trust": 1,
+            "mercy": 1,
+            "dominion": 3,
+            "aspect": "possessive"
+          }
+        },
+        {
+          "day": 3,
+          "petition": "wall",
+          "votive": "chain",
+          "catalyst": "bell",
+          "discarded": [],
+          "after": {
+            "defence": 8,
+            "trust": 0,
+            "mercy": 1,
+            "dominion": 5,
+            "aspect": "possessive"
+          }
+        },
+        {
+          "day": 4,
+          "petition": "refugees",
+          "votive": "chain",
+          "catalyst": null,
+          "discarded": [
+            "guardian_tear",
+            "ring"
+          ],
+          "after": {
+            "defence": 8,
+            "trust": 0,
+            "mercy": 1,
+            "dominion": 6,
+            "aspect": "possessive"
+          }
+        },
+        {
+          "day": 5,
+          "petition": "tomorrow",
+          "votive": "seed",
+          "catalyst": "ring",
+          "discarded": [
+            "ring"
+          ],
+          "after": {
+            "defence": 8,
+            "trust": 2,
+            "mercy": 3,
+            "dominion": 6,
+            "aspect": "possessive"
+          }
+        }
+      ],
+      "finale": {
+        "response": "strike",
+        "catalyst": "forgotten_name",
+        "interpretation": "open",
+        "fate": "wander"
+      },
+      "final": {
+        "defence": 6,
+        "trust": 4,
+        "mercy": 3,
+        "dominion": 6,
+        "aspect": "possessive"
+      },
+      "ending": "free"
+    },
+    "guarded": {
+      "seed": "FIRST-EMBER",
+      "opening": "listening",
+      "guided": true,
+      "days": [
+        {
+          "day": 1,
+          "petition": "granary",
+          "votive": "knife",
+          "catalyst": "bell",
+          "discarded": [],
+          "after": {
+            "defence": 4,
+            "trust": 2,
+            "mercy": 0,
+            "dominion": 2,
+            "aspect": "possessive"
+          }
+        },
+        {
+          "day": 2,
+          "petition": "silent_bell",
+          "votive": "seed",
+          "catalyst": "loose_shadow",
+          "discarded": [],
+          "after": {
+            "defence": 7,
+            "trust": 1,
+            "mercy": 1,
+            "dominion": 3,
+            "aspect": "possessive"
+          }
+        },
+        {
+          "day": 3,
+          "petition": "wall",
+          "votive": "chain",
+          "catalyst": "bell",
+          "discarded": [],
+          "after": {
+            "defence": 8,
+            "trust": 0,
+            "mercy": 1,
+            "dominion": 5,
+            "aspect": "possessive"
+          }
+        },
+        {
+          "day": 4,
+          "petition": "refugees",
+          "votive": "chain",
+          "catalyst": null,
+          "discarded": [
+            "guardian_tear",
+            "ring"
+          ],
+          "after": {
+            "defence": 8,
+            "trust": 0,
+            "mercy": 1,
+            "dominion": 6,
+            "aspect": "possessive"
+          }
+        },
+        {
+          "day": 5,
+          "petition": "tomorrow",
+          "votive": "seed",
+          "catalyst": "ring",
+          "discarded": [
+            "ring"
+          ],
+          "after": {
+            "defence": 8,
+            "trust": 2,
+            "mercy": 3,
+            "dominion": 6,
+            "aspect": "possessive"
+          }
+        }
+      ],
+      "finale": {
+        "response": "shelter",
+        "catalyst": null,
+        "interpretation": "open",
+        "fate": "remain"
+      },
+      "final": {
+        "defence": 8,
+        "trust": 4,
+        "mercy": 3,
+        "dominion": 6,
+        "aspect": "possessive"
+      },
+      "ending": "guarded"
+    },
+    "quiet": {
+      "seed": "FIRST-EMBER",
+      "opening": "listening",
+      "guided": true,
+      "days": [
+        {
+          "day": 1,
+          "petition": "granary",
+          "votive": "knife",
+          "catalyst": "bell",
+          "discarded": [],
+          "after": {
+            "defence": 4,
+            "trust": 2,
+            "mercy": 0,
+            "dominion": 2,
+            "aspect": "possessive"
+          }
+        },
+        {
+          "day": 2,
+          "petition": "silent_bell",
+          "votive": "seed",
+          "catalyst": "loose_shadow",
+          "discarded": [],
+          "after": {
+            "defence": 7,
+            "trust": 1,
+            "mercy": 1,
+            "dominion": 3,
+            "aspect": "possessive"
+          }
+        },
+        {
+          "day": 3,
+          "petition": "wall",
+          "votive": "chain",
+          "catalyst": "bell",
+          "discarded": [],
+          "after": {
+            "defence": 8,
+            "trust": 0,
+            "mercy": 1,
+            "dominion": 5,
+            "aspect": "possessive"
+          }
+        },
+        {
+          "day": 4,
+          "petition": "refugees",
+          "votive": "chain",
+          "catalyst": null,
+          "discarded": [
+            "guardian_tear",
+            "ring"
+          ],
+          "after": {
+            "defence": 8,
+            "trust": 0,
+            "mercy": 1,
+            "dominion": 6,
+            "aspect": "possessive"
+          }
+        },
+        {
+          "day": 5,
+          "petition": "tomorrow",
+          "votive": "seed",
+          "catalyst": "ring",
+          "discarded": [
+            "ring"
+          ],
+          "after": {
+            "defence": 8,
+            "trust": 2,
+            "mercy": 3,
+            "dominion": 6,
+            "aspect": "possessive"
+          }
+        }
+      ],
+      "finale": {
+        "response": "shelter",
+        "catalyst": "forgotten_name",
+        "interpretation": "seal",
+        "fate": "sleep"
+      },
+      "final": {
+        "defence": 6,
+        "trust": 5,
+        "mercy": 3,
+        "dominion": 6,
+        "aspect": "possessive"
+      },
+      "ending": "quiet"
+    }
+  },
+  "named_success_routes": {
+    "balanced_guardians": {
+      "seed": "FIRST-EMBER",
+      "opening": "listening",
+      "guided": true,
+      "days": [
+        {
+          "day": 1,
+          "petition": "granary",
+          "votive": "chain",
+          "catalyst": "ring",
+          "discarded": [],
+          "after": {
+            "defence": 2,
+            "trust": 4,
+            "mercy": 1,
+            "dominion": 1,
+            "aspect": "listening"
+          }
+        },
+        {
+          "day": 2,
+          "petition": "silent_bell",
+          "votive": "chain",
+          "catalyst": "guardian_tear",
+          "discarded": [],
+          "after": {
+            "defence": 5,
+            "trust": 4,
+            "mercy": 2,
+            "dominion": 2,
+            "aspect": "listening"
+          }
+        },
+        {
+          "day": 3,
+          "petition": "wall",
+          "votive": "chain",
+          "catalyst": "guardian_tear",
+          "discarded": [],
+          "after": {
+            "defence": 8,
+            "trust": 4,
+            "mercy": 3,
+            "dominion": 3,
+            "aspect": "listening"
+          }
+        },
+        {
+          "day": 4,
+          "petition": "refugees",
+          "votive": "chain",
+          "catalyst": "guardian_tear",
+          "discarded": [
+            "bell"
+          ],
+          "after": {
+            "defence": 8,
+            "trust": 5,
+            "mercy": 4,
+            "dominion": 4,
+            "aspect": "listening"
+          }
+        },
+        {
+          "day": 5,
+          "petition": "tomorrow",
+          "votive": "chain",
+          "catalyst": "guardian_tear",
+          "discarded": [
+            "ring"
+          ],
+          "after": {
+            "defence": 8,
+            "trust": 6,
+            "mercy": 5,
+            "dominion": 5,
+            "aspect": "listening"
+          }
+        }
+      ],
+      "finale": {
+        "response": "stand",
+        "catalyst": "forgotten_name",
+        "interpretation": "freedom",
+        "fate": "sleep"
+      },
+      "final": {
+        "defence": 6,
+        "trust": 8,
+        "mercy": 5,
+        "dominion": 5,
+        "aspect": "listening"
+      },
+      "ending": "quiet"
+    },
+    "merciful_boundaries": {
+      "seed": "FIRST-EMBER",
+      "opening": "listening",
+      "guided": true,
+      "days": [
+        {
+          "day": 1,
+          "petition": "granary",
+          "votive": "seed",
+          "catalyst": "bell",
+          "discarded": [],
+          "after": {
+            "defence": 2,
+            "trust": 5,
+            "mercy": 1,
+            "dominion": 1,
+            "aspect": "listening"
+          }
+        },
+        {
+          "day": 2,
+          "petition": "orchard",
+          "votive": "seed",
+          "catalyst": "mirror",
+          "discarded": [],
+          "after": {
+            "defence": 2,
+            "trust": 7,
+            "mercy": 3,
+            "dominion": 1,
+            "aspect": "merciful"
+          }
+        },
+        {
+          "day": 3,
+          "petition": "wall",
+          "votive": "chain",
+          "catalyst": "ring",
+          "discarded": [],
+          "after": {
+            "defence": 3,
+            "trust": 7,
+            "mercy": 4,
+            "dominion": 2,
+            "aspect": "merciful"
+          }
+        },
+        {
+          "day": 4,
+          "petition": "bridge",
+          "votive": "chain",
+          "catalyst": "guardian_tear",
+          "discarded": [
+            "ring"
+          ],
+          "after": {
+            "defence": 5,
+            "trust": 7,
+            "mercy": 5,
+            "dominion": 3,
+            "aspect": "merciful"
+          }
+        },
+        {
+          "day": 5,
+          "petition": "watch",
+          "votive": "chain",
+          "catalyst": "guardian_tear",
+          "discarded": [
+            "biting_grain"
+          ],
+          "after": {
+            "defence": 7,
+            "trust": 7,
+            "mercy": 6,
+            "dominion": 4,
+            "aspect": "merciful"
+          }
+        }
+      ],
+      "finale": {
+        "response": "stand",
+        "catalyst": "bell",
+        "interpretation": "boundary",
+        "fate": "sleep"
+      },
+      "final": {
+        "defence": 6,
+        "trust": 8,
+        "mercy": 6,
+        "dominion": 4,
+        "aspect": "merciful"
+      },
+      "ending": "quiet"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+Correct this game UI wood material. Output a flat rectangular FRONT-FACING WOODEN PANEL texture that fills the ENTIRE image edge to edge. The whole canvas is opaque dark warm brown wood with restrained hand-inked grain, aged painterly texture, two tiny iron nails at corners. No shelf legs, no scenery, no object on a background, no perspective. REMOVE ALL CHECKERBOARD AND REPLACE IT WITH WOOD. No checker pattern anywhere, no blank margins, no text, no symbols. Match the haunted storybook ink and muted palette of the reference. Wide 3:1 rectangular material, subtle detail suitable behind actual browser UI. This is an opaque wood surface, NOT an isolated shelf sprite.
+
+References:
+assets-source/rejected/ui_wood-checkerboard.png

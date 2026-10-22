@@ -1,0 +1,4 @@
+Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore. A SINGLE full-body ancient stone shrine god isolated with genuine transparency. Rounded arch head and squat stable body, simple forehead sun engraving, heavy curious eyelids, huge dark open mouth with a few worn stone teeth, moss and sparse tiny pale flowers, rust cloth shoulder charms. Frontal slight three-quarter pose. Entire base visible, generous margin. No environment, people, candles. Almost cute, uncertain, master character design.
+
+References:
+assets-source/concept-reference.png

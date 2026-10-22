@@ -1,0 +1,4 @@
+Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore. A SINGLE full-body small adult village baker, rounded expressive storybook proportions matching villagers in reference, three-quarter standing facing right. Broad silhouette, ochre apron, rolled sleeves, flour cheek, tied-back dark hair, clasping plain bread cloth. Worried but practical. Worn shoes visible, generous margin, isolated genuine transparency. No scenery, extra people or objects.
+
+References:
+assets-source/concept-reference.png

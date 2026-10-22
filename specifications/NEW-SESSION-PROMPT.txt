@@ -1,0 +1,9 @@
+Build the browser game described in the attached “The Last Offering” MVP package. Read all four specifications and the content JSON, and inspect the included concept image. Start by checking the available environment and applicable repository instructions.
+
+Implement the single-player five-day MVP and complete all playable slices in `04-IMPLEMENTATION-SLICES.md`. Use `02-CONTENT.json` as authored content, with deterministic rules and local saves. Make reasonable implementation choices autonomously. Do not expand the scope into multiplayer, combat, village construction, arbitrary AI-generated outcomes, or a management dashboard.
+
+Generate the production art using GPT Image or the available image-generation tool, following `03-ART-AND-AUDIO.md` and referencing the attached concept image. Generate separate, usable game assets: backgrounds, statue forms, characters, offerings, UI decorations, effects, and endings. Do not substitute emoji, unrelated stock images, generic flat icons, or a single flattened screenshot for the playable scene. All original visual and sound assets must be generated as specified; use a suitably licensed readable font.
+
+The concept sheet is a style reference, not runtime artwork. Establish one finished shrine scene early, then maintain that style across the remaining assets. Keep text and controls as real browser UI. Review the actual rendered game at desktop and mobile widths. The result should look and sound like a small finished game.
+
+Deliver a working, tested browser game, the generated assets and their manifest, and a concise handoff. If Sites is available, follow its required workflow and publish privately by default. If hosting is unavailable, finish the runnable local game and explain the exact remaining hosting blocker. Do not stop after a mockup or the first slice.

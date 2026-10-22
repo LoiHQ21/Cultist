@@ -1,0 +1,4 @@
+Original production art for The Last Offering. Use attached concept ONLY as style reference, create a NEW separate usable asset, never copy the whole sheet. Hand-inked irregular contours, flat illustrated 2D layered cutout, muted moss greens, terracotta, warm grey stone, ochre candlelight, cream parchment, fine paper grain. Warm yet quietly unsettling. No text, letters, UI, watermark, photorealism, 3D, glossy gradients, neon, gore. A SINGLE short votive chain of three heavy worn iron links, gently curved, warm brown-grey metal without sharp shine. Hand-painted tactile object with bold inked silhouette readable at 48px. Three-quarter view, centered filling 75% square with transparent margin. No labels, card, scenery, extra objects.
+
+References:
+assets-source/concept-reference.png
